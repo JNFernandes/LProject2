@@ -52,7 +52,7 @@ Some constraints were given to the project such as:
 - US17: As a center coordinator, I want to import data from a legacy system used in the past
 - US18: As a center coordinator, I want to get a list of all vaccines
 
-The **US10**, **US14** and **US16** were the ones developed by me, thus the only artifacts in this repository presented
+The **US11**, **US14** and **US16** were the ones developed by me, thus the only artifacts in this repository presented
 
 ## Engineering Requirements (docs folder)
   - Use Cases
@@ -65,6 +65,8 @@ The **US10**, **US14** and **US16** were the ones developed by me, thus the only
   - Sequence Diagram
   - Class Diagram
   
+## Code
+Part of the code can be found in /src folder. Inside this folder, it can be found the main and test folders. Tests were conducted using JUnit5. The src mainly contains the code used for **US11**, **US14** and **US16**. Part of the files are also missing. There was no need to upload them in the repo. The idea is just to enlight the skills obtained in Java language and showing the artifacts that are consistent with the methods and classes created in the code. 
 
 
 
