@@ -1,0 +1,111 @@
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant "store: SnsUserStore " as store
+participant ":List<SnsUserDTO>" as listDTO
+participant ":PasswordGenerator" as pass
+participant ":AuthFacade" as auth
+participant ": Company" as C
+participant ": SnsUserMapper" as mapper
+participant ": SnsUser" as snsUser
+participant "snsUserFinalList : \nList<SnsUserDTO>" as finalList
+
+title : SD_registerSnsUsersFromExternalModule(snsUserDTOList)
+
+'1'
+[o-> store : registerSnsUsersFromExternalModule(snsUserDTOList)
+activate store
+store --> finalList** : create()
+loop for each snsUserDTO in the obtained list from external module
+
+'2'
+store -> store : checkIfUserAlreadyExists(snsUserDTO)
+activate store
+deactivate store
+
+'3'
+store -> C : authFacade = getAuthFacade()
+activate C
+deactivate C
+
+'4'
+store -> auth : existsUser(email)
+activate auth
+deactivate auth
+
+
+'6'
+store -> store : snsUserOptional = getSnsUserById(email)
+activate store
+deactivate store
+
+'7'
+opt !checkIfUserAlreadyExists(snsUserDTO)
+store -> store : registerSnsUser(SnsUserDTO)
+activate store
+deactivate store
+
+'8'
+store -> pass : password = generatePassword()
+activate pass
+deactivate pass
+
+'9'
+store -> auth : userAddedSuccessfully = addUserWithRole(name, email, password, role)
+activate auth
+deactivate auth
+
+
+'11'
+store -> store : snsUser = createSnsUser(SnsUserDTO)
+activate store
+deactivate store
+
+'12'
+store --> mapper** : create()
+
+'13'
+store -> mapper : toModel(SnsUserDTO)
+activate mapper
+
+
+'14'
+mapper --> snsUser** : create()
+deactivate mapper
+
+'15'
+store -> store : addedSuccessfully = addSnsUser(SnsUser)
+activate store
+deactivate store
+
+
+'20'
+store -> finalList : add(SnsUserDTO)
+activate finalList
+deactivate finalList
+end opt
+end loop
+
+'19'
+[<-- store : return snsUserFinalList
+
+deactivate store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

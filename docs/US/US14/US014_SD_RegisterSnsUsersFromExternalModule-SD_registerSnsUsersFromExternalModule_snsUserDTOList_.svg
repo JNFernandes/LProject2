@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1168px" preserveAspectRatio="none" style="width:1523px;height:1168px;background:#FFFFFF;" version="1.1" viewBox="0 0 1523 1168" width="1523px" zoomAndPan="magnify"><defs><filter height="300%" id="fv30qqgh9xu7l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="25" lengthAdjust="spacing" textLength="676" x="421.5" y="37.9521">SD_registerSnsUsersFromExternalModule(snsUserDTOList)</text><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="951.3594" style="stroke:#A80036;stroke-width:1.0;" width="10" x="361" y="137.0156"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="264.9375"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="458.9922"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="557.6953"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="751.75"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="948.6719"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="812.5" y="623.0469"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="946" y="390.6406"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="946" y="683.3984"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1048.5" y="330.2891"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="863.7109"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1414.5" y="1014.0234"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="842.7891" style="stroke:#000000;stroke-width:2.0;" width="1237.5" x="271.5" y="216.2344"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="543.0313" style="stroke:#000000;stroke-width:2.0;" width="1217.5" x="281.5" y="508.9922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="365.5" x2="365.5" y1="104.6641" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="661.5" x2="661.5" y1="104.6641" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="817.5" x2="817.5" y1="104.6641" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="950.5" x2="950.5" y1="104.6641" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1053.5" x2="1053.5" y1="104.6641" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1169.5" x2="1169.5" y1="828.0547" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1300" x2="1300" y1="905.0156" y2="1106.375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1419" x2="1419" y1="187.125" y2="1106.375"/><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="145" x="291.5" y="68.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="298.5" y="89.5879">store: SnsUserStore</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="145" x="291.5" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="298.5" y="1126.9082">store: SnsUserStore</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="139" x="590.5" y="68.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="597.5" y="89.5879">:List&lt;SnsUserDTO&gt;</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="139" x="590.5" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="597.5" y="1126.9082">:List&lt;SnsUserDTO&gt;</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="144" x="743.5" y="68.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="750.5" y="89.5879">:PasswordGenerator</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="144" x="743.5" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="750.5" y="1126.9082">:PasswordGenerator</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="95" x="901.5" y="68.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="908.5" y="89.5879">:AuthFacade</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="95" x="901.5" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="908.5" y="1126.9082">:AuthFacade</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="1010.5" y="68.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1017.5" y="89.5879">: Company</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="1010.5" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1017.5" y="1126.9082">: Company</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="123" x="1106.5" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1113.5" y="1126.9082">: SnsUserMapper</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="75" x="1261" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1268" y="1126.9082">: SnsUser</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="135" x="1350" y="1105.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1359.5" y="1126.9082">snsUserFinalList :</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1357" y="1144.5176">List&lt;SnsUserDTO&gt;</text><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="951.3594" style="stroke:#A80036;stroke-width:1.0;" width="10" x="361" y="137.0156"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="264.9375"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="458.9922"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="557.6953"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="751.75"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="366" y="948.6719"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="812.5" y="623.0469"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="946" y="390.6406"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="946" y="683.3984"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1048.5" y="330.2891"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="863.7109"/><rect fill="#FFFFFF" filter="url(#fv30qqgh9xu7l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1414.5" y="1014.0234"/><ellipse cx="7.5" cy="136.2656" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#A80036" points="349,133.0156,359,137.0156,349,141.0156,353,137.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="12" x2="355" y1="137.0156" y2="137.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="15" y="132.1592">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="323" x="26" y="132.1592">registerSnsUsersFromExternalModule(snsUserDTOList)</text><polygon fill="#A80036" points="1338,163.3672,1348,167.3672,1338,171.3672,1342,167.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="371" x2="1344" y1="167.3672" y2="167.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="378" y="162.5107">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="389" y="162.5107">create()</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="135" x="1350" y="145.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1359.5" y="166.5488">snsUserFinalList :</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1357" y="184.1582">List&lt;SnsUserDTO&gt;</text><path d="M271.5,216.2344 L344.5,216.2344 L344.5,224.2344 L334.5,234.2344 L271.5,234.2344 L271.5,216.2344 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="842.7891" style="stroke:#000000;stroke-width:2.0;" width="1237.5" x="271.5" y="216.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="286.5" y="230.7295">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="353" x="359.5" y="229.6533">[for each snsUserDTO in the obtained list from external module]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="376" x2="418" y1="256.9375" y2="256.9375"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418" x2="418" y1="256.9375" y2="269.9375"/><line style="stroke:#A80036;stroke-width:1.0;" x1="377" x2="418" y1="269.9375" y2="269.9375"/><polygon fill="#A80036" points="387,265.9375,377,269.9375,387,273.9375,383,269.9375" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="383" y="252.0811">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="394" y="252.0811">checkIfUserAlreadyExists(snsUserDTO)</text><polygon fill="#A80036" points="1036.5,326.2891,1046.5,330.2891,1036.5,334.2891,1040.5,330.2891" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371" x2="1042.5" y1="330.2891" y2="330.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="378" y="325.4326">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="389" y="325.4326">authFacade = getAuthFacade()</text><polygon fill="#A80036" points="934,386.6406,944,390.6406,934,394.6406,938,390.6406" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371" x2="940" y1="390.6406" y2="390.6406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="378" y="385.7842">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="389" y="385.7842">existsUser(email)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="376" x2="418" y1="450.9922" y2="450.9922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418" x2="418" y1="450.9922" y2="463.9922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="377" x2="418" y1="463.9922" y2="463.9922"/><polygon fill="#A80036" points="387,459.9922,377,463.9922,387,467.9922,383,463.9922" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="383" y="446.1357">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="245" x="394" y="446.1357">snsUserOptional = getSnsUserById(email)</text><path d="M281.5,508.9922 L346.5,508.9922 L346.5,516.9922 L336.5,526.9922 L281.5,526.9922 L281.5,508.9922 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="543.0313" style="stroke:#000000;stroke-width:2.0;" width="1217.5" x="281.5" y="508.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="20" x="296.5" y="523.4873">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="229" x="361.5" y="522.4111">[!checkIfUserAlreadyExists(snsUserDTO)]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="376" x2="418" y1="549.6953" y2="549.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418" x2="418" y1="549.6953" y2="562.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="377" x2="418" y1="562.6953" y2="562.6953"/><polygon fill="#A80036" points="387,558.6953,377,562.6953,387,566.6953,383,562.6953" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="383" y="544.8389">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="394" y="544.8389">registerSnsUser(SnsUserDTO)</text><polygon fill="#A80036" points="800.5,619.0469,810.5,623.0469,800.5,627.0469,804.5,623.0469" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371" x2="806.5" y1="623.0469" y2="623.0469"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="378" y="618.1904">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="389" y="618.1904">password = generatePassword()</text><polygon fill="#A80036" points="934,679.3984,944,683.3984,934,687.3984,938,683.3984" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371" x2="940" y1="683.3984" y2="683.3984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="378" y="678.542">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="424" x="389" y="678.542">userAddedSuccessfully = addUserWithRole(name, email, password, role)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="376" x2="418" y1="743.75" y2="743.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418" x2="418" y1="743.75" y2="756.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="377" x2="418" y1="756.75" y2="756.75"/><polygon fill="#A80036" points="387,752.75,377,756.75,387,760.75,383,756.75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="383" y="738.8936">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="401" y="738.8936">snsUser = createSnsUser(SnsUserDTO)</text><polygon fill="#A80036" points="1094.5,813.1016,1104.5,817.1016,1094.5,821.1016,1098.5,817.1016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="371" x2="1100.5" y1="817.1016" y2="817.1016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="378" y="812.2451">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="396" y="812.2451">create()</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="123" x="1106.5" y="794.75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1113.5" y="816.2832">: SnsUserMapper</text><polygon fill="#A80036" points="1153,859.7109,1163,863.7109,1153,867.7109,1157,863.7109" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371" x2="1159" y1="863.7109" y2="863.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="378" y="858.8545">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="396" y="858.8545">toModel(SnsUserDTO)</text><polygon fill="#A80036" points="1249,890.0625,1259,894.0625,1249,898.0625,1253,894.0625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1170" x2="1255" y1="894.0625" y2="894.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="889.2061">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1195" y="889.2061">create()</text><rect fill="#FEFECE" filter="url(#fv30qqgh9xu7l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="75" x="1261" y="871.7109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1268" y="893.2441">: SnsUser</text><line style="stroke:#A80036;stroke-width:1.0;" x1="376" x2="418" y1="940.6719" y2="940.6719"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418" x2="418" y1="940.6719" y2="953.6719"/><line style="stroke:#A80036;stroke-width:1.0;" x1="377" x2="418" y1="953.6719" y2="953.6719"/><polygon fill="#A80036" points="387,949.6719,377,953.6719,387,957.6719,383,953.6719" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="383" y="935.8154">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="401" y="935.8154">addedSuccessfully = addSnsUser(SnsUser)</text><polygon fill="#A80036" points="1402.5,1010.0234,1412.5,1014.0234,1402.5,1018.0234,1406.5,1014.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371" x2="1408.5" y1="1014.0234" y2="1014.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="378" y="1009.167">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="396" y="1009.167">add(SnsUserDTO)</text><polygon fill="#A80036" points="11,1084.375,1,1088.375,11,1092.375,7,1088.375" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="5" x2="365" y1="1088.375" y2="1088.375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="17" y="1083.5186">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="35" y="1083.5186">return snsUserFinalList</text><!--MD5=[82576e50f4907e1dbafa2edeb4ea0a9e]
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant "store: SnsUserStore " as store
+participant ":List<SnsUserDTO>" as listDTO
+participant ":PasswordGenerator" as pass
+participant ":AuthFacade" as auth
+participant ": Company" as C
+participant ": SnsUserMapper" as mapper
+participant ": SnsUser" as snsUser
+participant "snsUserFinalList : \nList<SnsUserDTO>" as finalList
+
+title : SD_registerSnsUsersFromExternalModule(snsUserDTOList)
+
+'1'
+[o-> store : registerSnsUsersFromExternalModule(snsUserDTOList)
+activate store
+store - -> finalList** : create()
+loop for each snsUserDTO in the obtained list from external module
+
+'2'
+store -> store : checkIfUserAlreadyExists(snsUserDTO)
+activate store
+deactivate store
+
+'3'
+store -> C : authFacade = getAuthFacade()
+activate C
+deactivate C
+
+'4'
+store -> auth : existsUser(email)
+activate auth
+deactivate auth
+
+
+'6'
+store -> store : snsUserOptional = getSnsUserById(email)
+activate store
+deactivate store
+
+'7'
+opt !checkIfUserAlreadyExists(snsUserDTO)
+store -> store : registerSnsUser(SnsUserDTO)
+activate store
+deactivate store
+
+'8'
+store -> pass : password = generatePassword()
+activate pass
+deactivate pass
+
+'9'
+store -> auth : userAddedSuccessfully = addUserWithRole(name, email, password, role)
+activate auth
+deactivate auth
+
+
+'11'
+store -> store : snsUser = createSnsUser(SnsUserDTO)
+activate store
+deactivate store
+
+'12'
+store - -> mapper** : create()
+
+'13'
+store -> mapper : toModel(SnsUserDTO)
+activate mapper
+
+
+'14'
+mapper - -> snsUser** : create()
+deactivate mapper
+
+'15'
+store -> store : addedSuccessfully = addSnsUser(SnsUser)
+activate store
+deactivate store
+
+
+'20'
+store -> finalList : add(SnsUserDTO)
+activate finalList
+deactivate finalList
+end opt
+end loop
+
+'19'
+[<- - store : return snsUserFinalList
+
+deactivate store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant "store: SnsUserStore " as store
+participant ":List<SnsUserDTO>" as listDTO
+participant ":PasswordGenerator" as pass
+participant ":AuthFacade" as auth
+participant ": Company" as C
+participant ": SnsUserMapper" as mapper
+participant ": SnsUser" as snsUser
+participant "snsUserFinalList : \nList<SnsUserDTO>" as finalList
+
+title : SD_registerSnsUsersFromExternalModule(snsUserDTOList)
+
+[o-> store : registerSnsUsersFromExternalModule(snsUserDTOList)
+activate store
+store - -> finalList** : create()
+loop for each snsUserDTO in the obtained list from external module
+
+store -> store : checkIfUserAlreadyExists(snsUserDTO)
+activate store
+deactivate store
+
+store -> C : authFacade = getAuthFacade()
+activate C
+deactivate C
+
+store -> auth : existsUser(email)
+activate auth
+deactivate auth
+
+
+store -> store : snsUserOptional = getSnsUserById(email)
+activate store
+deactivate store
+
+opt !checkIfUserAlreadyExists(snsUserDTO)
+store -> store : registerSnsUser(SnsUserDTO)
+activate store
+deactivate store
+
+store -> pass : password = generatePassword()
+activate pass
+deactivate pass
+
+store -> auth : userAddedSuccessfully = addUserWithRole(name, email, password, role)
+activate auth
+deactivate auth
+
+
+store -> store : snsUser = createSnsUser(SnsUserDTO)
+activate store
+deactivate store
+
+store - -> mapper** : create()
+
+store -> mapper : toModel(SnsUserDTO)
+activate mapper
+
+
+mapper - -> snsUser** : create()
+deactivate mapper
+
+store -> store : addedSuccessfully = addSnsUser(SnsUser)
+activate store
+deactivate store
+
+
+store -> finalList : add(SnsUserDTO)
+activate finalList
+deactivate finalList
+end opt
+end loop
+
+[<- - store : return snsUserFinalList
+
+deactivate store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

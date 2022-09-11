@@ -1,0 +1,122 @@
+@startuml
+autonumber
+actor "CenterCoordinator" as CCord
+
+skinparam titleFontSize 25
+skinparam sequenceReferenceBackgroundColor white
+
+participant ":CenterPerformanceUI" as CPerUI
+participant ":CenterPerformanceController" as CPerCtrl
+participant ":VaccinationCenter" as VC
+participant ":Company" as C
+participant "store: VaccinationCenterStore" as VCStore
+participant "store: SnsUserArrivalStore " as ArrivalStore
+participant "store: VaccineAdministrationStore" as VAStore
+
+
+title : Analyse the performance of a Vaccination Center
+
+activate CCord
+'1'
+CCord -> CPerUI : wants to analyse the performance \n of a center for a specific day
+activate CPerUI
+
+'2'
+CPerUI -> CPerCtrl : getListDaysForPerformance(vaccinationCenterEmail)
+activate CPerCtrl
+
+
+'3'
+CPerCtrl -> C : snsUserArrivalStore = getSnsUserArrivalStore()
+activate C
+deactivate C
+
+'4'
+CPerCtrl -> ArrivalStore : getListDaysForPerformance(vaccinationCenterEmail)
+activate ArrivalStore
+
+ref over ArrivalStore : getListDaysForPerformance(vaccinationCenterEmail)
+
+'5'
+return listAvailableDaysForPerformance
+
+'6'
+return listAvailableDaysForPerformance
+deactivate CPerCtrl
+
+'7'
+CPerUI --> CCord : shows list of days available \n to see the performance
+deactivate CPerUI
+
+'8'
+CCord -> CPerUI : selects one day
+activate CPerUI
+
+'9'
+CPerUI -> CPerCtrl : getVaccinationCenterWorkingPeriod(vaccinationCenterEmail)
+activate CPerCtrl
+
+'10'
+CPerCtrl -> VCStore : vaccinationCenter = getByEmail(vaccinationCenterEmail)
+activate VCStore
+deactivate VCStore
+'10'
+CPerCtrl -> VC : obtainWorkingPeriodMinutes()
+activate VC
+
+ref over VC : getVaccinationCenterWorkingPeriod()
+
+'11'
+return workingPeriod
+
+'12'
+return workingPeriod
+deactivate CPerCtrl
+
+'13'
+CPerUI --> CCord : requests the time resolution to analyse \n the performance for the chosen day (min)
+deactivate CPerUI
+
+'14'
+CCord -> CPerUI : types the time resolution
+activate CPerUI
+
+'15'
+CPerUI -> CPerCtrl : calculatePerformanceBasedOnInterval(timeResolution, day, \n vaccinationCenter)
+activate CPerCtrl
+
+
+CPerCtrl -> ArrivalStore : listArrivals = getListArrivals(vaccinationCenterEmail)
+activate ArrivalStore
+deactivate ArrivalStore
+note over ArrivalStore
+ <w:#FFAAAA>The details to obtain this list is
+ explained on ref getListDaysForPerformance(vaccinationCenterEmail)
+end note
+
+CPerCtrl -> VAStore : listLeavings = getListLeavings(vaccinationCenterEmail)
+activate VAStore
+deactivate VAStore
+
+ref over VAStore : getListLeavings(vaccinationCenterEmail)
+
+CPerCtrl -> VCStore : vaccinationCenter = getByEmail(vaccinationCenterEmail)
+activate VCStore
+deactivate VCStore
+
+'16'
+CPerCtrl -> VC : getAdapterForPerformanceAnalysis(timeResolution, day, \n listArrivals, listLeavings)
+activate VC
+deactivate VC
+
+ref over VC: getAdapterForPerformanceAnalysis(timeResolution, day, \n vaccinationCenter, listLeavings, listLeavings)
+deactivate CPerCtrl
+
+
+
+'17'
+CPerUI --> CCord : shows the worst case performance center
+deactivate CPerUI
+deactivate CCord
+
+@enduml

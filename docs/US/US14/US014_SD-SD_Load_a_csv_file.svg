@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="716px" preserveAspectRatio="none" style="width:1201px;height:716px;background:#FFFFFF;" version="1.1" viewBox="0 0 1201 716" width="1201px" zoomAndPan="magnify"><defs><filter height="300%" id="fclqf76qh1cl7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="25" lengthAdjust="spacing" textLength="210" x="494.25" y="37.9521">SD_Load a csv file</text><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="467.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="145.0547"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="284.5" y="167.4063"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="384.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="284.5" y="228.1094"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="307.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="541.5" y="258.4609"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="783.5" y="288.8125"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="909" y="349.1641"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="909" y="457.5703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="49" x2="49" y1="135.0547" y2="630.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="289" x2="289" y1="135.0547" y2="630.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="546" x2="546" y1="135.0547" y2="630.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="788.5" x2="788.5" y1="135.0547" y2="630.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="913.5" x2="913.5" y1="135.0547" y2="630.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="131.9785">Administrator</text><ellipse cx="49.5" cy="60.4453" fill="#FEFECE" filter="url(#fclqf76qh1cl7)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,68.4453 L49.5,95.4453 M36.5,76.4453 L62.5,76.4453 M49.5,95.4453 L36.5,110.4453 M49.5,95.4453 L62.5,110.4453 " fill="none" filter="url(#fclqf76qh1cl7)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="644.2129">Administrator</text><ellipse cx="49.5" cy="657.2891" fill="#FEFECE" filter="url(#fclqf76qh1cl7)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,665.2891 L49.5,692.2891 M36.5,673.2891 L62.5,673.2891 M49.5,692.2891 L36.5,707.2891 M49.5,692.2891 L62.5,707.2891 " fill="none" filter="url(#fclqf76qh1cl7)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="233" y="98.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="240" y="119.9785">:LoadCsvFileUI</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="233" y="629.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="240" y="651.2129">:LoadCsvFileUI</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="161" x="464" y="98.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="471" y="119.9785">:LoadCSvFileController</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="161" x="464" y="629.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="471" y="651.2129">:LoadCSvFileController</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="747.5" y="98.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="754.5" y="119.9785">:Company</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="747.5" y="629.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="754.5" y="651.2129">:Company</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="145" x="839.5" y="98.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="846.5" y="119.9785">store: SnsUserStore</text><rect fill="#FEFECE" filter="url(#fclqf76qh1cl7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="145" x="839.5" y="629.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="846.5" y="651.2129">store: SnsUserStore</text><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="467.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="145.0547"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="284.5" y="167.4063"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="384.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="284.5" y="228.1094"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="307.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="541.5" y="258.4609"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="783.5" y="288.8125"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="909" y="349.1641"/><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="909" y="457.5703"/><polygon fill="#A80036" points="272.5,163.4063,282.5,167.4063,272.5,171.4063,276.5,167.4063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="278.5" y1="167.4063" y2="167.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="162.5498">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="72.5" y="162.5498">wants to load csv File</text><polygon fill="#A80036" points="65.5,193.7578,55.5,197.7578,65.5,201.7578,61.5,197.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="288.5" y1="197.7578" y2="197.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71.5" y="192.9014">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="82.5" y="192.9014">requests the file path</text><polygon fill="#A80036" points="272.5,224.1094,282.5,228.1094,272.5,232.1094,276.5,228.1094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="278.5" y1="228.1094" y2="228.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="223.2529">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="72.5" y="223.2529">Types the requested field</text><polygon fill="#A80036" points="529.5,254.4609,539.5,258.4609,529.5,262.4609,533.5,258.4609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="294.5" x2="535.5" y1="258.4609" y2="258.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="301.5" y="253.6045">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="312.5" y="253.6045">getListFromExternalModule(fileName)</text><polygon fill="#A80036" points="771.5,284.8125,781.5,288.8125,771.5,292.8125,775.5,288.8125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="551.5" x2="777.5" y1="288.8125" y2="288.8125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="558.5" y="283.9561">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="569.5" y="283.9561">snsUserStore = getSnsUserStore()</text><polygon fill="#A80036" points="897,345.1641,907,349.1641,897,353.1641,901,349.1641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="551.5" x2="903" y1="349.1641" y2="349.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="558.5" y="344.3076">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="569.5" y="344.3076">getListFromExternalModule(fileName)</text><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="42.7031" style="stroke:#000000;stroke-width:2.0;" width="250" x="836.5" y="357.1641"/><path d="M836.5,357.1641 L898.5,357.1641 L898.5,365.1641 L888.5,375.1641 L836.5,375.1641 L836.5,357.1641 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="849.5" y="372.6592">ref</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="842.5" y="392.6592">SD_getListFromExternalModule(fileName)</text><polygon fill="#A80036" points="562.5,423.2188,552.5,427.2188,562.5,431.2188,558.5,427.2188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="556.5" x2="913" y1="427.2188" y2="427.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="568.5" y="422.3623">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="579.5" y="422.3623">return dtoList</text><polygon fill="#A80036" points="897,453.5703,907,457.5703,897,461.5703,901,457.5703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="551.5" x2="903" y1="457.5703" y2="457.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="558.5" y="452.7139">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="323" x="569.5" y="452.7139">registerSnsUsersFromExternalModule(snsUserDTOList)</text><rect fill="#FFFFFF" filter="url(#fclqf76qh1cl7)" height="42.7031" style="stroke:#000000;stroke-width:2.0;" width="356" x="836.5" y="465.5703"/><path d="M836.5,465.5703 L898.5,465.5703 L898.5,473.5703 L888.5,483.5703 L836.5,483.5703 L836.5,465.5703 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="849.5" y="481.0654">ref</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="348" x="842.5" y="501.0654">SD_registerSnsUsersFromExternalModule(snsUserDTOList)</text><polygon fill="#A80036" points="562.5,531.625,552.5,535.625,562.5,539.625,558.5,535.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="556.5" x2="913" y1="535.625" y2="535.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="568.5" y="530.7686">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="579.5" y="530.7686">return snsUserFinalList</text><polygon fill="#A80036" points="305.5,561.9766,295.5,565.9766,305.5,569.9766,301.5,565.9766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="299.5" x2="545.5" y1="565.9766" y2="565.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="311.5" y="561.1201">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="329.5" y="561.1201">return snsUserFinalList</text><polygon fill="#A80036" points="60.5,608.6797,50.5,612.6797,60.5,616.6797,56.5,612.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="54.5" x2="288.5" y1="612.6797" y2="612.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="66.5" y="599.6475">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="84.5" y="591.4717">shows sucess message</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="84.5" y="607.8232">and information of registed users</text><!--MD5=[cc0eb42bd517b21c07c9c265392adfc9]
+@startuml
+autonumber
+actor "Administrator" as Admin
+
+skinparam titleFontSize 25
+
+participant ":LoadCsvFileUI" as csvFileUI
+participant ":LoadCSvFileController" as csvFileController
+participant ":Company" as C
+participant "store: SnsUserStore " as store
+
+title : SD_Load a csv file
+
+activate Admin
+
+'1'
+Admin -> csvFileUI : wants to load csv File
+activate csvFileUI
+
+'2'
+csvFileUI - -> Admin : requests the file path
+deactivate csvFileUI
+
+'3'
+Admin -> csvFileUI : Types the requested field
+activate csvFileUI
+
+'4'
+csvFileUI -> csvFileController : getListFromExternalModule(fileName)
+activate csvFileController
+
+'5'
+csvFileController -> C : snsUserStore = getSnsUserStore()
+activate C
+deactivate C
+
+'6'
+csvFileController -> store : getListFromExternalModule(fileName)
+activate store
+
+ref over store : SD_getListFromExternalModule(fileName)
+
+
+
+'10'
+store - -> csvFileController : return dtoList
+deactivate store
+
+'8'
+csvFileController -> store : registerSnsUsersFromExternalModule(snsUserDTOList)
+activate store
+
+ref over store : SD_registerSnsUsersFromExternalModule(snsUserDTOList)
+
+'9'
+store - -> csvFileController : return snsUserFinalList
+deactivate store
+
+'12'
+csvFileController - -> csvFileUI : return snsUserFinalList
+deactivate csvFileController
+
+'11'
+csvFileUI - -> Admin : shows sucess message\nand information of registed users
+deactivate csvFileUI
+
+deactivate Admin
+
+@enduml
+
+@startuml
+autonumber
+actor "Administrator" as Admin
+
+skinparam titleFontSize 25
+
+participant ":LoadCsvFileUI" as csvFileUI
+participant ":LoadCSvFileController" as csvFileController
+participant ":Company" as C
+participant "store: SnsUserStore " as store
+
+title : SD_Load a csv file
+
+activate Admin
+
+Admin -> csvFileUI : wants to load csv File
+activate csvFileUI
+
+csvFileUI - -> Admin : requests the file path
+deactivate csvFileUI
+
+Admin -> csvFileUI : Types the requested field
+activate csvFileUI
+
+csvFileUI -> csvFileController : getListFromExternalModule(fileName)
+activate csvFileController
+
+csvFileController -> C : snsUserStore = getSnsUserStore()
+activate C
+deactivate C
+
+csvFileController -> store : getListFromExternalModule(fileName)
+activate store
+
+ref over store : SD_getListFromExternalModule(fileName)
+
+
+
+store - -> csvFileController : return dtoList
+deactivate store
+
+csvFileController -> store : registerSnsUsersFromExternalModule(snsUserDTOList)
+activate store
+
+ref over store : SD_registerSnsUsersFromExternalModule(snsUserDTOList)
+
+store - -> csvFileController : return snsUserFinalList
+deactivate store
+
+csvFileController - -> csvFileUI : return snsUserFinalList
+deactivate csvFileController
+
+csvFileUI - -> Admin : shows sucess message\nand information of registed users
+deactivate csvFileUI
+
+deactivate Admin
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

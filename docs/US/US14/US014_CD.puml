@@ -1,0 +1,182 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam titleFontSize 28
+top to bottom direction
+
+title Class Diagram: Load a csv file
+
+class LoadCsvFileUI {
+}
+
+class LoadCsvFileController {
+    +getListFromExternalModule(fileName)
+    +registerSnsUsersFromExternalModule(snsUserDTOList)
+}
+
+class Company
+{
+  -designation : String
+  - snsUserStore : SnsUserStore
+  +getSnsUserStore():SnsUserStore
+  (...)
+}
+
+class SnsUserStore
+{
+  -snsUserStore:SnsUser
+  +createSnsUser (SnsUserDTO):SnsUser
+  +registerSnsUser(SnsUserDTO) : boolean
+  +checkIfUserAlreadyExists(SnsUserDTO) : boolean
+  +registerSnsUsersFromExternalModule(List<SnsUserDTO>) : Set<SnsUser>
+  +getClassName(filePath) : String
+  +getListFromExternalModule(filePath) : List<SnsUserDTO>
+  (...)
+}
+
+class SnsUserMapper{
+  +toModel(SnsUserDTO):SnsUser
+  (...)
+}
+
+class SnsUser {
+  -id:String
+  -name:String
+  -email:String
+  -gender:Gender
+  -birthDate:Date
+  -snsNumber:long
+  -address:Address
+  -phoneNumber:String
+  -citizenCardNumber:long
+  +getId():String
+  +getName():String
+  +getEmail():String
+  +getGender():Gender
+  +getBirthDate():Date
+  +getSnsNumber():long
+  +getAddress():Address
+  +getPhoneNumber():String
+  +getCitizenCardNumber():long
+  +setId(String):void
+  -validateId(String):void
+  -validateSnsNumber(long):void
+}
+
+class SnsUserDTO {
+  -id:String
+  -name:String
+  -email:String
+  -gender:Gender
+  -birthDate:Date
+  -snsNumber:long
+  -address:Address
+  -phoneNumber:String
+  -citizenCardNumber:long
+    +getName():String
+    +getEmail():String
+    +getGender():Gender
+    +getBirthDate():Date
+    +getSnsNumber():long
+    +getAddress():Address
+    +getPhoneNumber():String
+    +getCitizenCardNumber():long
+}
+
+class PasswordGenerator {
+  -PASSWORD_LENGTH: String
+  -DIGIT: String
+  -CHAR_LOWERCASE: String
+  -CHAR_UPPERCASE: String
+  -PASSWORD_ALLOW: String
+  -random: SecureRandom
+  +generatePassword(): String
+  (...)
+}
+
+class AuthFacade  {
+  -userSession:UserSession
+  -roles:UserRoleStore
+  -users:UserStore
+  +addUserWithRole(name, email, pwd, roleId):boolean
+  +existsUser(email):boolean
+  (...)
+}
+
+interface LoadSnsUsersFromExternalSource {
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+}
+
+class CsvFileReaderAPICommaAdapter {
+
+    +CsvFileReaderAPICommaAdapter()
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+
+}
+class CsvFileReaderCommaAdptee {
+    -snsUserDTOList : List<SnsUserDTO>
+    -COMMA : String
+    +CsvFileReaderCommaAdptee()
+    +readFile(pathName) : void
+    +readFileLine(elements) : void
+    +readAddress(address) : String []
+    +addSnsUser(snsUserDTO) : boolean
+    +isCsvType(filePath) : boolean
+    +getSnsUserDTOList() : List<SnsUserDTO>
+
+}
+
+class CsvFileReaderSemiConlonAdaptee {
+    -snsUserDTOList : List<SnsUserDTO>
+    -HEADER : String []
+    -SEMI_COLON : String
+    +CsvFileReaderSemiConlonAdaptee()
+    +checkHeader(header, validHeader) : String []
+    +readFile(pathName) : void
+    +readFileLine(elements) : void
+    +readAddress(address) : String []
+    +addSnsUser(snsUserDTO) : boolean
+    +isCsvType(filePath) : boolean
+    +getSnsUserDTOList() : List<SnsUserDTO>
+}
+
+class CsvFileReaderAPISemiColonAdapter {
+    +CsvFileReaderAPISemiColonAdapter()
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+}
+
+'UI'
+LoadCsvFileUI ..> LoadCsvFileController
+
+'Controller'
+LoadCsvFileController ..> "1" Company
+
+'Company'
+Company "1" -d-> "1" SnsUserStore : uses
+
+'SnsUserStore'
+SnsUserStore "1" -l-> "1" SnsUserMapper : uses
+SnsUserStore "1" --> "*" SnsUser : stores
+SnsUserStore "1" -u-> "1" PasswordGenerator : asks for
+SnsUserStore "1" -u-> "1" AuthFacade : uses
+
+'SnsUserMapper'
+SnsUserMapper "1" -u-> "1" SnsUserDTO : mapps
+
+
+'interface and adapter'
+SnsUserStore "1"->"1" LoadSnsUsersFromExternalSource : makes use of
+CsvFileReaderAPICommaAdapter "1" .u.|> "1" LoadSnsUsersFromExternalSource : implements
+CsvFileReaderAPISemiColonAdapter "1" .u.|> "1" LoadSnsUsersFromExternalSource : implements
+
+'adapter with adaptee'
+CsvFileReaderAPICommaAdapter "1" -d-> "1" CsvFileReaderCommaAdptee : uses
+CsvFileReaderAPISemiColonAdapter "1" -d-> "1" CsvFileReaderSemiConlonAdaptee : uses
+
+
+
+
+
+
+
+
+@enduml

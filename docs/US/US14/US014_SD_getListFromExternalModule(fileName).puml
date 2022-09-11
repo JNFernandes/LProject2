@@ -1,0 +1,51 @@
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant "store: SnsUserStore " as store
+participant "<<interface>>\n:LoadSnsUsersFromExternalSource" as externalSource
+participant ":List<SnsUserDTO>" as listDTO
+
+title : SD_getListFromExternalModule(fileName)
+'1'
+[o-> store : getListFromExternalModule(fileName)
+activate store
+'2'
+store -> store : className = getClassName(fileName)
+activate store
+deactivate store
+
+'5'
+store -> externalSource : dtoList = readFileFromExternalSource(fileName)
+
+activate externalSource
+
+'6'
+externalSource --> listDTO **: create()
+note over externalSource
+ <w:#FFAAAA>multiple interactions in the externalSource to extract a list of SnsUserDTO</w>
+end note
+deactivate externalSource
+
+'7'
+[<-- store : return dtoList
+
+deactivate store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,87 @@
+@startuml
+autonumber
+actor "Administrator" as Admin
+
+participant ":GetListEmployeeUI" as ListUI
+participant ":GetListEmployeeController" as ListController
+participant ":Company" as C
+participant "store: EmployeeStore " as store
+participant ": List<Employee>" as leRole
+participant " obj: Employee" as objEmp
+participant " ler: List<Employee>" as ler
+
+
+activate Admin
+'1'
+Admin -> ListUI : asks to get list of Employees
+activate ListUI
+
+'2'
+ListUI -> ListController : getRoleList()
+activate ListController
+
+
+'3'
+ListController -> C : empStore = getEmployeeStore()
+activate C
+deactivate C
+
+'4'
+ListController -> store : getRoleList()
+activate store
+deactivate store
+deactivate ListController
+
+
+'5'
+ListUI --> Admin : shows list of employee roles
+deactivate ListUI
+
+'6'
+Admin -> ListUI : types requested data (i.e. roleOption)
+activate ListUI
+
+'7'
+ListUI -> ListController : getListEmployeeByRole(roleOption)
+activate ListController
+
+
+'8'
+ListController -> store : getListEmployeeByRole(roleOption)
+activate store
+deactivate ListController
+
+'9'
+store --> ler **: ler = create()
+
+
+loop for each Emp
+'10'
+store -> leRole : obj = get(i)
+activate leRole
+deactivate leRole
+
+'12'
+store -> objEmp : b = roleOption
+activate objEmp
+deactivate objEmp
+opt b==True
+
+'13'
+store -> ler : add(obj)
+activate ler
+deactivate ler
+deactivate store
+
+end opt
+end loop
+
+'14'
+ListUI --> Admin : shows data
+deactivate ler
+deactivate ListUI
+
+
+deactivate Admin
+
+@enduml

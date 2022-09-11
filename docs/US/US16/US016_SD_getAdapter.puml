@@ -1,0 +1,67 @@
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant ": VaccinationCenter" as VC
+participant "<<interface>>\n:CenterPerformanceCalculation" as performance
+'participant ": PreprocessingPerformance" as PP
+
+title : SD_getAdapterForPerformanceAnalysis(timeResolution, day, \n listArrivals, listLeavings)
+
+'1'
+[o-> VC : getAdapterForPerformanceAnalysis(timeResolution, day, \n listArrivals, listLeavings)
+activate VC
+
+'2'
+VC -> VC : className = getClassNameForPerformanceAnalysis()
+activate VC
+deactivate VC
+
+'3'
+VC -> performance : calculatePerformance(timeResolution, day, \n workingPeriod, listArrivals, listLeavings)
+activate performance
+
+note over performance
+ Multiple calculations to obtain the performance based on either
+ Brute Force or Benchmark Algorithm to obtain the worst case scenario
+ for the vaccination center
+end note
+
+'
+''4'
+'performance -> PP : hoursArrivalList = getHoursList(day,listArrivals)
+'activate PP
+'deactivate PP
+'
+'performance -> PP : hoursLeavingList = getHoursList(day,listArrivals)
+'activate PP
+'deactivate PP
+'
+'performance -> PP : hoursArrivalArr = convertFromListToArray(hoursArrivalList)
+'activate PP
+'deactivate PP
+'
+'performance -> PP : hoursLeavingArr = convertFromListToArray(hoursLeavingList)
+'activate PP
+'deactivate PP
+'
+'performance -> PP : hoursToMinArrival = transformMinutesOnly(hoursArrivalArr)
+'activate PP
+'deactivate PP
+'
+'performance -> PP : hoursToMinLeaving = transformMinutesOnly(hoursLeavingArr)
+'activate PP
+'deactivate PP
+'
+'performance -> PP : performanceIntervalArr = obtainPerformanceIntervalArray(hoursToMinArrival, hoursToMinLeaving, \n timeResolution, workingPeriod)
+'activate PP
+'deactivate PP
+'
+'performance -> performance : performanceAlgorithm(performanceIntervalArr, timeResolution)
+'activate performance
+'deactivate performance
+
+deactivate VC
+@enduml

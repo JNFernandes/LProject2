@@ -1,0 +1,69 @@
+@startuml
+autonumber
+actor "Administrator" as Admin
+
+skinparam titleFontSize 25
+
+participant ":LoadCsvFileUI" as csvFileUI
+participant ":LoadCSvFileController" as csvFileController
+participant ":Company" as C
+participant "store: SnsUserStore " as store
+
+title : SD_Load a csv file
+
+activate Admin
+
+'1'
+Admin -> csvFileUI : wants to load csv File
+activate csvFileUI
+
+'2'
+csvFileUI --> Admin : requests the file path
+deactivate csvFileUI
+
+'3'
+Admin -> csvFileUI : Types the requested field
+activate csvFileUI
+
+'4'
+csvFileUI -> csvFileController : getListFromExternalModule(fileName)
+activate csvFileController
+
+'5'
+csvFileController -> C : snsUserStore = getSnsUserStore()
+activate C
+deactivate C
+
+'6'
+csvFileController -> store : getListFromExternalModule(fileName)
+activate store
+
+ref over store : SD_getListFromExternalModule(fileName)
+
+
+
+'10'
+store --> csvFileController : return dtoList
+deactivate store
+
+'8'
+csvFileController -> store : registerSnsUsersFromExternalModule(snsUserDTOList)
+activate store
+
+ref over store : SD_registerSnsUsersFromExternalModule(snsUserDTOList)
+
+'9'
+store --> csvFileController : return snsUserFinalList
+deactivate store
+
+'12'
+csvFileController --> csvFileUI : return snsUserFinalList
+deactivate csvFileController
+
+'11'
+csvFileUI --> Admin : shows sucess message\nand information of registed users
+deactivate csvFileUI
+
+deactivate Admin
+
+@enduml

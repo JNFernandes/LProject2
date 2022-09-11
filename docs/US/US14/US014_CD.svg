@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1517px" preserveAspectRatio="none" style="width:1277px;height:1517px;background:#FFFFFF;" version="1.1" viewBox="0 0 1277 1517" width="1277px" zoomAndPan="magnify"><defs><filter height="300%" id="f4po7h3rp7qh8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacing" textLength="374" x="445.25" y="29.0664">Class Diagram: Load a csv file</text><!--MD5=[d55346e51b8e05c4883bcd0421feee0d]
+class LoadCsvFileUI--><rect codeLine="7" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="48" id="LoadCsvFileUI" style="stroke:#A80036;stroke-width:1.5;" width="113" x="423" y="42.2188"/><ellipse cx="438" cy="58.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M440,54.7188 Q440.2031,54.2188 440.4375,53.9688 Q440.6719,53.7188 440.9375,53.7188 Q441.4063,53.7188 441.7031,54 Q442,54.2813 442,54.9375 L442,56.5 Q442,57.1563 441.7188,57.4375 Q441.4375,57.7188 441,57.7188 Q440.6094,57.7188 440.3594,57.5469 Q440.1094,57.375 440,56.9219 Q439.9531,56.6094 439.7813,56.4375 Q439.4688,56.1094 438.9063,55.9219 Q438.3438,55.7188 437.7813,55.7188 Q437.0781,55.7188 436.4844,56 Q435.9063,56.2813 435.4531,56.9063 Q435,57.5313 435,58.3906 L435,59.3125 Q435,60.3438 435.8438,61.0313 Q436.6875,61.7188 438.1875,61.7188 Q439.0781,61.7188 439.7031,61.5156 Q440.0625,61.4063 440.4688,61.0469 Q440.7344,60.8438 440.875,60.7813 Q441.0156,60.7188 441.1875,60.7188 Q441.5156,60.7188 441.75,60.9844 Q442,61.2344 442,61.5938 Q442,61.9375 441.6563,62.3438 Q441.1563,62.9375 440.3594,63.2656 Q439.3125,63.7188 438.0313,63.7188 Q436.5313,63.7188 435.3281,63.125 Q434.3594,62.6563 433.6719,61.6406 Q433,60.625 433,59.4219 L433,58.3281 Q433,57.0781 433.5938,55.9844 Q434.2031,54.8906 435.25,54.3125 Q436.3125,53.7188 437.5,53.7188 Q438.2188,53.7188 438.8438,53.9688 Q439.4688,54.2188 440,54.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="452" y="63.1289">LoadCsvFileUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="535" y1="74.2188" y2="74.2188"/><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="535" y1="82.2188" y2="82.2188"/><!--MD5=[1cfa99cbd46adae2a63ef7bb50d728c4]
+class LoadCsvFileController--><rect codeLine="10" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="75.6719" id="LoadCsvFileController" style="stroke:#A80036;stroke-width:1.5;" width="287" x="336" y="151.2188"/><ellipse cx="413.75" cy="167.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M415.75,163.7188 Q415.9531,163.2188 416.1875,162.9688 Q416.4219,162.7188 416.6875,162.7188 Q417.1563,162.7188 417.4531,163 Q417.75,163.2813 417.75,163.9375 L417.75,165.5 Q417.75,166.1563 417.4688,166.4375 Q417.1875,166.7188 416.75,166.7188 Q416.3594,166.7188 416.1094,166.5469 Q415.8594,166.375 415.75,165.9219 Q415.7031,165.6094 415.5313,165.4375 Q415.2188,165.1094 414.6563,164.9219 Q414.0938,164.7188 413.5313,164.7188 Q412.8281,164.7188 412.2344,165 Q411.6563,165.2813 411.2031,165.9063 Q410.75,166.5313 410.75,167.3906 L410.75,168.3125 Q410.75,169.3438 411.5938,170.0313 Q412.4375,170.7188 413.9375,170.7188 Q414.8281,170.7188 415.4531,170.5156 Q415.8125,170.4063 416.2188,170.0469 Q416.4844,169.8438 416.625,169.7813 Q416.7656,169.7188 416.9375,169.7188 Q417.2656,169.7188 417.5,169.9844 Q417.75,170.2344 417.75,170.5938 Q417.75,170.9375 417.4063,171.3438 Q416.9063,171.9375 416.1094,172.2656 Q415.0625,172.7188 413.7813,172.7188 Q412.2813,172.7188 411.0781,172.125 Q410.1094,171.6563 409.4219,170.6406 Q408.75,169.625 408.75,168.4219 L408.75,167.3281 Q408.75,166.0781 409.3438,164.9844 Q409.9531,163.8906 411,163.3125 Q412.0625,162.7188 413.25,162.7188 Q413.9688,162.7188 414.5938,162.9688 Q415.2188,163.2188 415.75,163.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="434.25" y="172.1289">LoadCsvFileController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="337" x2="622" y1="183.2188" y2="183.2188"/><line style="stroke:#A80036;stroke-width:1.5;" x1="337" x2="622" y1="191.2188" y2="191.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="342" y="206.6377">+getListFromExternalModule(fileName)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="275" x="342" y="220.4736">+registerSnsUsersFromExternalModule(snsUserDTOList)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="15" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="103.3438" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="180" x="389.5" y="378.2188"/><ellipse cx="448.75" cy="394.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M450.75,390.7188 Q450.9531,390.2188 451.1875,389.9688 Q451.4219,389.7188 451.6875,389.7188 Q452.1563,389.7188 452.4531,390 Q452.75,390.2813 452.75,390.9375 L452.75,392.5 Q452.75,393.1563 452.4688,393.4375 Q452.1875,393.7188 451.75,393.7188 Q451.3594,393.7188 451.1094,393.5469 Q450.8594,393.375 450.75,392.9219 Q450.7031,392.6094 450.5313,392.4375 Q450.2188,392.1094 449.6563,391.9219 Q449.0938,391.7188 448.5313,391.7188 Q447.8281,391.7188 447.2344,392 Q446.6563,392.2813 446.2031,392.9063 Q445.75,393.5313 445.75,394.3906 L445.75,395.3125 Q445.75,396.3438 446.5938,397.0313 Q447.4375,397.7188 448.9375,397.7188 Q449.8281,397.7188 450.4531,397.5156 Q450.8125,397.4063 451.2188,397.0469 Q451.4844,396.8438 451.625,396.7813 Q451.7656,396.7188 451.9375,396.7188 Q452.2656,396.7188 452.5,396.9844 Q452.75,397.2344 452.75,397.5938 Q452.75,397.9375 452.4063,398.3438 Q451.9063,398.9375 451.1094,399.2656 Q450.0625,399.7188 448.7813,399.7188 Q447.2813,399.7188 446.0781,399.125 Q445.1094,398.6563 444.4219,397.6406 Q443.75,396.625 443.75,395.4219 L443.75,394.3281 Q443.75,393.0781 444.3438,391.9844 Q444.9531,390.8906 446,390.3125 Q447.0625,389.7188 448.25,389.7188 Q448.9688,389.7188 449.5938,389.9688 Q450.2188,390.2188 450.75,390.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="469.25" y="399.1289">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.5" x2="568.5" y1="410.2188" y2="410.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="395.5" y="425.6377">-designation : String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="395.5" y="439.4736">-snsUserStore : SnsUserStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.5" x2="568.5" y1="445.8906" y2="445.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="168" x="395.5" y="461.3096">+getSnsUserStore():SnsUserStore</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="395.5" y="475.1455">(...)</text><!--MD5=[9fe762efc8b9cd0ebfcd4120396959e0]
+class SnsUserStore--><rect codeLine="23" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="158.6875" id="SnsUserStore" style="stroke:#A80036;stroke-width:1.5;" width="379" x="256" y="649.2188"/><ellipse cx="402.25" cy="665.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M404.25,661.7188 Q404.4531,661.2188 404.6875,660.9688 Q404.9219,660.7188 405.1875,660.7188 Q405.6563,660.7188 405.9531,661 Q406.25,661.2813 406.25,661.9375 L406.25,663.5 Q406.25,664.1563 405.9688,664.4375 Q405.6875,664.7188 405.25,664.7188 Q404.8594,664.7188 404.6094,664.5469 Q404.3594,664.375 404.25,663.9219 Q404.2031,663.6094 404.0313,663.4375 Q403.7188,663.1094 403.1563,662.9219 Q402.5938,662.7188 402.0313,662.7188 Q401.3281,662.7188 400.7344,663 Q400.1563,663.2813 399.7031,663.9063 Q399.25,664.5313 399.25,665.3906 L399.25,666.3125 Q399.25,667.3438 400.0938,668.0313 Q400.9375,668.7188 402.4375,668.7188 Q403.3281,668.7188 403.9531,668.5156 Q404.3125,668.4063 404.7188,668.0469 Q404.9844,667.8438 405.125,667.7813 Q405.2656,667.7188 405.4375,667.7188 Q405.7656,667.7188 406,667.9844 Q406.25,668.2344 406.25,668.5938 Q406.25,668.9375 405.9063,669.3438 Q405.4063,669.9375 404.6094,670.2656 Q403.5625,670.7188 402.2813,670.7188 Q400.7813,670.7188 399.5781,670.125 Q398.6094,669.6563 397.9219,668.6406 Q397.25,667.625 397.25,666.4219 L397.25,665.3281 Q397.25,664.0781 397.8438,662.9844 Q398.4531,661.8906 399.5,661.3125 Q400.5625,660.7188 401.75,660.7188 Q402.4688,660.7188 403.0938,660.9688 Q403.7188,661.2188 404.25,661.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="422.75" y="670.1289">SnsUserStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="257" x2="634" y1="681.2188" y2="681.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="262" y="696.6377">-snsUserStore:SnsUser</text><line style="stroke:#A80036;stroke-width:1.5;" x1="257" x2="634" y1="703.0547" y2="703.0547"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="262" y="718.4736">+createSnsUser (SnsUserDTO):SnsUser</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="203" x="262" y="732.3096">+registerSnsUser(SnsUserDTO) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="249" x="262" y="746.1455">+checkIfUserAlreadyExists(SnsUserDTO) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="367" x="262" y="759.9814">+registerSnsUsersFromExternalModule(List&lt;SnsUserDTO&gt;) : Set&lt;SnsUser&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="262" y="773.8174">+getClassName(filePath) : String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="279" x="262" y="787.6533">+getListFromExternalModule(filePath) : List&lt;SnsUserDTO&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="262" y="801.4893">(...)</text><!--MD5=[76e6a35c5da8e7eae8828a71bc622a44]
+class SnsUserMapper--><rect codeLine="35" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="75.6719" id="SnsUserMapper" style="stroke:#A80036;stroke-width:1.5;" width="171" x="7" y="690.7188"/><ellipse cx="44.05" cy="706.7188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M46.05,703.2188 Q46.2531,702.7188 46.4875,702.4688 Q46.7219,702.2188 46.9875,702.2188 Q47.4563,702.2188 47.7531,702.5 Q48.05,702.7813 48.05,703.4375 L48.05,705 Q48.05,705.6563 47.7688,705.9375 Q47.4875,706.2188 47.05,706.2188 Q46.6594,706.2188 46.4094,706.0469 Q46.1594,705.875 46.05,705.4219 Q46.0031,705.1094 45.8313,704.9375 Q45.5188,704.6094 44.9563,704.4219 Q44.3938,704.2188 43.8313,704.2188 Q43.1281,704.2188 42.5344,704.5 Q41.9563,704.7813 41.5031,705.4063 Q41.05,706.0313 41.05,706.8906 L41.05,707.8125 Q41.05,708.8438 41.8938,709.5313 Q42.7375,710.2188 44.2375,710.2188 Q45.1281,710.2188 45.7531,710.0156 Q46.1125,709.9063 46.5188,709.5469 Q46.7844,709.3438 46.925,709.2813 Q47.0656,709.2188 47.2375,709.2188 Q47.5656,709.2188 47.8,709.4844 Q48.05,709.7344 48.05,710.0938 Q48.05,710.4375 47.7063,710.8438 Q47.2063,711.4375 46.4094,711.7656 Q45.3625,712.2188 44.0813,712.2188 Q42.5813,712.2188 41.3781,711.625 Q40.4094,711.1563 39.7219,710.1406 Q39.05,709.125 39.05,707.9219 L39.05,706.8281 Q39.05,705.5781 39.6438,704.4844 Q40.2531,703.3906 41.3,702.8125 Q42.3625,702.2188 43.55,702.2188 Q44.2688,702.2188 44.8938,702.4688 Q45.5188,702.7188 46.05,703.2188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="62.95" y="711.6289">SnsUserMapper</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="177" y1="722.7188" y2="722.7188"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="177" y1="730.7188" y2="730.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="13" y="746.1377">+toModel(SnsUserDTO):SnsUser</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="13" y="759.9736">(...)</text><!--MD5=[c4593935f45e4a2a0cefc4788932b53f]
+class SnsUser--><rect codeLine="40" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="338.5547" id="SnsUser" style="stroke:#A80036;stroke-width:1.5;" width="160" x="365.5" y="886.2188"/><ellipse cx="416.75" cy="902.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M418.75,898.7188 Q418.9531,898.2188 419.1875,897.9688 Q419.4219,897.7188 419.6875,897.7188 Q420.1563,897.7188 420.4531,898 Q420.75,898.2813 420.75,898.9375 L420.75,900.5 Q420.75,901.1563 420.4688,901.4375 Q420.1875,901.7188 419.75,901.7188 Q419.3594,901.7188 419.1094,901.5469 Q418.8594,901.375 418.75,900.9219 Q418.7031,900.6094 418.5313,900.4375 Q418.2188,900.1094 417.6563,899.9219 Q417.0938,899.7188 416.5313,899.7188 Q415.8281,899.7188 415.2344,900 Q414.6563,900.2813 414.2031,900.9063 Q413.75,901.5313 413.75,902.3906 L413.75,903.3125 Q413.75,904.3438 414.5938,905.0313 Q415.4375,905.7188 416.9375,905.7188 Q417.8281,905.7188 418.4531,905.5156 Q418.8125,905.4063 419.2188,905.0469 Q419.4844,904.8438 419.625,904.7813 Q419.7656,904.7188 419.9375,904.7188 Q420.2656,904.7188 420.5,904.9844 Q420.75,905.2344 420.75,905.5938 Q420.75,905.9375 420.4063,906.3438 Q419.9063,906.9375 419.1094,907.2656 Q418.0625,907.7188 416.7813,907.7188 Q415.2813,907.7188 414.0781,907.125 Q413.1094,906.6563 412.4219,905.6406 Q411.75,904.625 411.75,903.4219 L411.75,902.3281 Q411.75,901.0781 412.3438,899.9844 Q412.9531,898.8906 414,898.3125 Q415.0625,897.7188 416.25,897.7188 Q416.9688,897.7188 417.5938,897.9688 Q418.2188,898.2188 418.75,898.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="437.25" y="907.1289">SnsUser</text><line style="stroke:#A80036;stroke-width:1.5;" x1="366.5" x2="524.5" y1="918.2188" y2="918.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="371.5" y="933.6377">-id:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="371.5" y="947.4736">-name:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="371.5" y="961.3096">-email:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="371.5" y="975.1455">-gender:Gender</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="371.5" y="988.9814">-birthDate:Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="371.5" y="1002.8174">-snsNumber:long</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="371.5" y="1016.6533">-address:Address</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="371.5" y="1030.4893">-phoneNumber:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="371.5" y="1044.3252">-citizenCardNumber:long</text><line style="stroke:#A80036;stroke-width:1.5;" x1="366.5" x2="524.5" y1="1050.7422" y2="1050.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="371.5" y="1066.1611">+getId():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="371.5" y="1079.9971">+getName():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="371.5" y="1093.833">+getEmail():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="371.5" y="1107.6689">+getGender():Gender</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="371.5" y="1121.5049">+getBirthDate():Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="371.5" y="1135.3408">+getSnsNumber():long</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="371.5" y="1149.1768">+getAddress():Address</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="371.5" y="1163.0127">+getPhoneNumber():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="371.5" y="1176.8486">+getCitizenCardNumber():long</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="371.5" y="1190.6846">+setId(String):void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="371.5" y="1204.5205">-validateId(String):void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="371.5" y="1218.3564">-validateSnsNumber(long):void</text><!--MD5=[a199d7a97ca030382d36e80bdcd6d64c]
+class SnsUserDTO--><rect codeLine="64" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="283.2109" id="SnsUserDTO" style="stroke:#A80036;stroke-width:1.5;" width="156" x="7.5" y="288.2188"/><ellipse cx="45" cy="304.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M47,300.7188 Q47.2031,300.2188 47.4375,299.9688 Q47.6719,299.7188 47.9375,299.7188 Q48.4063,299.7188 48.7031,300 Q49,300.2813 49,300.9375 L49,302.5 Q49,303.1563 48.7188,303.4375 Q48.4375,303.7188 48,303.7188 Q47.6094,303.7188 47.3594,303.5469 Q47.1094,303.375 47,302.9219 Q46.9531,302.6094 46.7813,302.4375 Q46.4688,302.1094 45.9063,301.9219 Q45.3438,301.7188 44.7813,301.7188 Q44.0781,301.7188 43.4844,302 Q42.9063,302.2813 42.4531,302.9063 Q42,303.5313 42,304.3906 L42,305.3125 Q42,306.3438 42.8438,307.0313 Q43.6875,307.7188 45.1875,307.7188 Q46.0781,307.7188 46.7031,307.5156 Q47.0625,307.4063 47.4688,307.0469 Q47.7344,306.8438 47.875,306.7813 Q48.0156,306.7188 48.1875,306.7188 Q48.5156,306.7188 48.75,306.9844 Q49,307.2344 49,307.5938 Q49,307.9375 48.6563,308.3438 Q48.1563,308.9375 47.3594,309.2656 Q46.3125,309.7188 45.0313,309.7188 Q43.5313,309.7188 42.3281,309.125 Q41.3594,308.6563 40.6719,307.6406 Q40,306.625 40,305.4219 L40,304.3281 Q40,303.0781 40.5938,301.9844 Q41.2031,300.8906 42.25,300.3125 Q43.3125,299.7188 44.5,299.7188 Q45.2188,299.7188 45.8438,299.9688 Q46.4688,300.2188 47,300.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="64" y="309.1289">SnsUserDTO</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8.5" x2="162.5" y1="320.2188" y2="320.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="13.5" y="335.6377">-id:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="13.5" y="349.4736">-name:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="13.5" y="363.3096">-email:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="13.5" y="377.1455">-gender:Gender</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="13.5" y="390.9814">-birthDate:Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="13.5" y="404.8174">-snsNumber:long</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="13.5" y="418.6533">-address:Address</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="13.5" y="432.4893">-phoneNumber:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="13.5" y="446.3252">-citizenCardNumber:long</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8.5" x2="162.5" y1="452.7422" y2="452.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="13.5" y="468.1611">+getName():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="13.5" y="481.9971">+getEmail():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="13.5" y="495.833">+getGender():Gender</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="13.5" y="509.6689">+getBirthDate():Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="13.5" y="523.5049">+getSnsNumber():long</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="13.5" y="537.3408">+getAddress():Address</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="13.5" y="551.1768">+getPhoneNumber():String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="13.5" y="565.0127">+getCitizenCardNumber():long</text><!--MD5=[9a2889027d1a5f59ee05c53124f224f8]
+class PasswordGenerator--><rect codeLine="84" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="158.6875" id="PasswordGenerator" style="stroke:#A80036;stroke-width:1.5;" width="156" x="198.5" y="350.2188"/><ellipse cx="219.35" cy="366.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M221.35,362.7188 Q221.5531,362.2188 221.7875,361.9688 Q222.0219,361.7188 222.2875,361.7188 Q222.7563,361.7188 223.0531,362 Q223.35,362.2813 223.35,362.9375 L223.35,364.5 Q223.35,365.1563 223.0688,365.4375 Q222.7875,365.7188 222.35,365.7188 Q221.9594,365.7188 221.7094,365.5469 Q221.4594,365.375 221.35,364.9219 Q221.3031,364.6094 221.1313,364.4375 Q220.8188,364.1094 220.2563,363.9219 Q219.6938,363.7188 219.1313,363.7188 Q218.4281,363.7188 217.8344,364 Q217.2563,364.2813 216.8031,364.9063 Q216.35,365.5313 216.35,366.3906 L216.35,367.3125 Q216.35,368.3438 217.1938,369.0313 Q218.0375,369.7188 219.5375,369.7188 Q220.4281,369.7188 221.0531,369.5156 Q221.4125,369.4063 221.8188,369.0469 Q222.0844,368.8438 222.225,368.7813 Q222.3656,368.7188 222.5375,368.7188 Q222.8656,368.7188 223.1,368.9844 Q223.35,369.2344 223.35,369.5938 Q223.35,369.9375 223.0063,370.3438 Q222.5063,370.9375 221.7094,371.2656 Q220.6625,371.7188 219.3813,371.7188 Q217.8813,371.7188 216.6781,371.125 Q215.7094,370.6563 215.0219,369.6406 Q214.35,368.625 214.35,367.4219 L214.35,366.3281 Q214.35,365.0781 214.9438,363.9844 Q215.5531,362.8906 216.6,362.3125 Q217.6625,361.7188 218.85,361.7188 Q219.5688,361.7188 220.1938,361.9688 Q220.8188,362.2188 221.35,362.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="234.65" y="371.1289">PasswordGenerator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="199.5" x2="353.5" y1="382.2188" y2="382.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="204.5" y="397.6377">-PASSWORD_LENGTH: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="204.5" y="411.4736">-DIGIT: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="204.5" y="425.3096">-CHAR_LOWERCASE: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="204.5" y="439.1455">-CHAR_UPPERCASE: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="204.5" y="452.9814">-PASSWORD_ALLOW: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="204.5" y="466.8174">-random: SecureRandom</text><line style="stroke:#A80036;stroke-width:1.5;" x1="199.5" x2="353.5" y1="473.2344" y2="473.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="204.5" y="488.6533">+generatePassword(): String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="204.5" y="502.4893">(...)</text><!--MD5=[8ae808d068a8995f06b9b3ec51357f0b]
+class AuthFacade--><rect codeLine="95" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="131.0156" id="AuthFacade" style="stroke:#A80036;stroke-width:1.5;" width="266" x="604.5" y="364.2188"/><ellipse cx="700.75" cy="380.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M702.75,376.7188 Q702.9531,376.2188 703.1875,375.9688 Q703.4219,375.7188 703.6875,375.7188 Q704.1563,375.7188 704.4531,376 Q704.75,376.2813 704.75,376.9375 L704.75,378.5 Q704.75,379.1563 704.4688,379.4375 Q704.1875,379.7188 703.75,379.7188 Q703.3594,379.7188 703.1094,379.5469 Q702.8594,379.375 702.75,378.9219 Q702.7031,378.6094 702.5313,378.4375 Q702.2188,378.1094 701.6563,377.9219 Q701.0938,377.7188 700.5313,377.7188 Q699.8281,377.7188 699.2344,378 Q698.6563,378.2813 698.2031,378.9063 Q697.75,379.5313 697.75,380.3906 L697.75,381.3125 Q697.75,382.3438 698.5938,383.0313 Q699.4375,383.7188 700.9375,383.7188 Q701.8281,383.7188 702.4531,383.5156 Q702.8125,383.4063 703.2188,383.0469 Q703.4844,382.8438 703.625,382.7813 Q703.7656,382.7188 703.9375,382.7188 Q704.2656,382.7188 704.5,382.9844 Q704.75,383.2344 704.75,383.5938 Q704.75,383.9375 704.4063,384.3438 Q703.9063,384.9375 703.1094,385.2656 Q702.0625,385.7188 700.7813,385.7188 Q699.2813,385.7188 698.0781,385.125 Q697.1094,384.6563 696.4219,383.6406 Q695.75,382.625 695.75,381.4219 L695.75,380.3281 Q695.75,379.0781 696.3438,377.9844 Q696.9531,376.8906 698,376.3125 Q699.0625,375.7188 700.25,375.7188 Q700.9688,375.7188 701.5938,375.9688 Q702.2188,376.2188 702.75,376.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="721.25" y="385.1289">AuthFacade</text><line style="stroke:#A80036;stroke-width:1.5;" x1="605.5" x2="869.5" y1="396.2188" y2="396.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="610.5" y="411.6377">-userSession:UserSession</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="610.5" y="425.4736">-roles:UserRoleStore</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="610.5" y="439.3096">-users:UserStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="605.5" x2="869.5" y1="445.7266" y2="445.7266"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="254" x="610.5" y="461.1455">+addUserWithRole(name, email, pwd, roleId):boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="610.5" y="474.9814">+existsUser(email):boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="610.5" y="488.8174">(...)</text><!--MD5=[cfc9f80998d78427c10542813f78fff0]
+class LoadSnsUsersFromExternalSource--><rect codeLine="104" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="61.8359" id="LoadSnsUsersFromExternalSource" style="stroke:#A80036;stroke-width:1.5;" width="314" x="749.5" y="697.7188"/><ellipse cx="805.25" cy="713.7188" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M806.25,710.7188 L806.25,716.7188 L808.25,716.7188 L808.7344,716.7188 L809.25,717.3438 L809.25,717.7188 L809.25,718.0938 L808.7344,718.7188 L808.25,718.7188 L802.25,718.7188 L801.7656,718.7188 L801.25,718.0938 L801.25,717.7188 L801.25,717.3438 L801.7656,716.7188 L802.25,716.7188 L804.25,716.7188 L804.25,710.7188 L802.25,710.7188 L801.7656,710.7188 L801.25,710.0938 L801.25,709.7188 L801.25,709.3438 L801.7656,708.7188 L802.25,708.7188 L808.25,708.7188 L808.7344,708.7188 L809.25,709.3438 L809.25,709.7188 L809.25,710.0938 L808.7344,710.7188 L808.25,710.7188 L806.25,710.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="194" x="825.75" y="718.6289">LoadSnsUsersFromExternalSource</text><line style="stroke:#A80036;stroke-width:1.5;" x1="750.5" x2="1062.5" y1="729.7188" y2="729.7188"/><line style="stroke:#A80036;stroke-width:1.5;" x1="750.5" x2="1062.5" y1="737.7188" y2="737.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="302" x="755.5" y="753.1377">+readFileFromExternalSource (pathName) : List&lt;SnsUserDTO&gt;</text><!--MD5=[1d249b10bcf5e9e7286e938f50fa54ea]
+class CsvFileReaderAPICommaAdapter--><rect codeLine="108" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="75.6719" id="CsvFileReaderAPICommaAdapter" style="stroke:#A80036;stroke-width:1.5;" width="314" x="949.5" y="1017.7188"/><ellipse cx="1008.75" cy="1033.7188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1010.75,1030.2188 Q1010.9531,1029.7188 1011.1875,1029.4688 Q1011.4219,1029.2188 1011.6875,1029.2188 Q1012.1563,1029.2188 1012.4531,1029.5 Q1012.75,1029.7813 1012.75,1030.4375 L1012.75,1032 Q1012.75,1032.6563 1012.4688,1032.9375 Q1012.1875,1033.2188 1011.75,1033.2188 Q1011.3594,1033.2188 1011.1094,1033.0469 Q1010.8594,1032.875 1010.75,1032.4219 Q1010.7031,1032.1094 1010.5313,1031.9375 Q1010.2188,1031.6094 1009.6563,1031.4219 Q1009.0938,1031.2188 1008.5313,1031.2188 Q1007.8281,1031.2188 1007.2344,1031.5 Q1006.6563,1031.7813 1006.2031,1032.4063 Q1005.75,1033.0313 1005.75,1033.8906 L1005.75,1034.8125 Q1005.75,1035.8438 1006.5938,1036.5313 Q1007.4375,1037.2188 1008.9375,1037.2188 Q1009.8281,1037.2188 1010.4531,1037.0156 Q1010.8125,1036.9063 1011.2188,1036.5469 Q1011.4844,1036.3438 1011.625,1036.2813 Q1011.7656,1036.2188 1011.9375,1036.2188 Q1012.2656,1036.2188 1012.5,1036.4844 Q1012.75,1036.7344 1012.75,1037.0938 Q1012.75,1037.4375 1012.4063,1037.8438 Q1011.9063,1038.4375 1011.1094,1038.7656 Q1010.0625,1039.2188 1008.7813,1039.2188 Q1007.2813,1039.2188 1006.0781,1038.625 Q1005.1094,1038.1563 1004.4219,1037.1406 Q1003.75,1036.125 1003.75,1034.9219 L1003.75,1033.8281 Q1003.75,1032.5781 1004.3438,1031.4844 Q1004.9531,1030.3906 1006,1029.8125 Q1007.0625,1029.2188 1008.25,1029.2188 Q1008.9688,1029.2188 1009.5938,1029.4688 Q1010.2188,1029.7188 1010.75,1030.2188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="1029.25" y="1038.6289">CsvFileReaderAPICommaAdapter</text><line style="stroke:#A80036;stroke-width:1.5;" x1="950.5" x2="1262.5" y1="1049.7188" y2="1049.7188"/><line style="stroke:#A80036;stroke-width:1.5;" x1="950.5" x2="1262.5" y1="1057.7188" y2="1057.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="955.5" y="1073.1377">+CsvFileReaderAPICommaAdapter()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="302" x="955.5" y="1086.9736">+readFileFromExternalSource (pathName) : List&lt;SnsUserDTO&gt;</text><!--MD5=[e499667bfc8d6b8f109cca2acca13dce]
+class CsvFileReaderCommaAdptee--><rect codeLine="114" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="172.5234" id="CsvFileReaderCommaAdptee" style="stroke:#A80036;stroke-width:1.5;" width="222" x="995.5" y="1316.7188"/><ellipse cx="1021.75" cy="1332.7188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1023.75,1329.2188 Q1023.9531,1328.7188 1024.1875,1328.4688 Q1024.4219,1328.2188 1024.6875,1328.2188 Q1025.1563,1328.2188 1025.4531,1328.5 Q1025.75,1328.7813 1025.75,1329.4375 L1025.75,1331 Q1025.75,1331.6563 1025.4688,1331.9375 Q1025.1875,1332.2188 1024.75,1332.2188 Q1024.3594,1332.2188 1024.1094,1332.0469 Q1023.8594,1331.875 1023.75,1331.4219 Q1023.7031,1331.1094 1023.5313,1330.9375 Q1023.2188,1330.6094 1022.6563,1330.4219 Q1022.0938,1330.2188 1021.5313,1330.2188 Q1020.8281,1330.2188 1020.2344,1330.5 Q1019.6563,1330.7813 1019.2031,1331.4063 Q1018.75,1332.0313 1018.75,1332.8906 L1018.75,1333.8125 Q1018.75,1334.8438 1019.5938,1335.5313 Q1020.4375,1336.2188 1021.9375,1336.2188 Q1022.8281,1336.2188 1023.4531,1336.0156 Q1023.8125,1335.9063 1024.2188,1335.5469 Q1024.4844,1335.3438 1024.625,1335.2813 Q1024.7656,1335.2188 1024.9375,1335.2188 Q1025.2656,1335.2188 1025.5,1335.4844 Q1025.75,1335.7344 1025.75,1336.0938 Q1025.75,1336.4375 1025.4063,1336.8438 Q1024.9063,1337.4375 1024.1094,1337.7656 Q1023.0625,1338.2188 1021.7813,1338.2188 Q1020.2813,1338.2188 1019.0781,1337.625 Q1018.1094,1337.1563 1017.4219,1336.1406 Q1016.75,1335.125 1016.75,1333.9219 L1016.75,1332.8281 Q1016.75,1331.5781 1017.3438,1330.4844 Q1017.9531,1329.3906 1019,1328.8125 Q1020.0625,1328.2188 1021.25,1328.2188 Q1021.9688,1328.2188 1022.5938,1328.4688 Q1023.2188,1328.7188 1023.75,1329.2188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="165" x="1038.25" y="1337.6289">CsvFileReaderCommaAdptee</text><line style="stroke:#A80036;stroke-width:1.5;" x1="996.5" x2="1216.5" y1="1348.7188" y2="1348.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="1001.5" y="1364.1377">-snsUserDTOList : List&lt;SnsUserDTO&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="1001.5" y="1377.9736">-COMMA : String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="996.5" x2="1216.5" y1="1384.3906" y2="1384.3906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="1001.5" y="1399.8096">+CsvFileReaderCommaAdptee()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="1001.5" y="1413.6455">+readFile(pathName) : void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="1001.5" y="1427.4814">+readFileLine(elements) : void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="1001.5" y="1441.3174">+readAddress(address) : String []</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="183" x="1001.5" y="1455.1533">+addSnsUser(snsUserDTO) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="1001.5" y="1468.9893">+isCsvType(filePath) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1001.5" y="1482.8252">+getSnsUserDTOList() : List&lt;SnsUserDTO&gt;</text><!--MD5=[c95747806a04025b17ee3457a4163570]
+class CsvFileReaderSemiConlonAdaptee--><rect codeLine="127" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="200.1953" id="CsvFileReaderSemiConlonAdaptee" style="stroke:#A80036;stroke-width:1.5;" width="233" x="641" y="1303.2188"/><ellipse cx="658.25" cy="1319.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M660.25,1315.7188 Q660.4531,1315.2188 660.6875,1314.9688 Q660.9219,1314.7188 661.1875,1314.7188 Q661.6563,1314.7188 661.9531,1315 Q662.25,1315.2813 662.25,1315.9375 L662.25,1317.5 Q662.25,1318.1563 661.9688,1318.4375 Q661.6875,1318.7188 661.25,1318.7188 Q660.8594,1318.7188 660.6094,1318.5469 Q660.3594,1318.375 660.25,1317.9219 Q660.2031,1317.6094 660.0313,1317.4375 Q659.7188,1317.1094 659.1563,1316.9219 Q658.5938,1316.7188 658.0313,1316.7188 Q657.3281,1316.7188 656.7344,1317 Q656.1563,1317.2813 655.7031,1317.9063 Q655.25,1318.5313 655.25,1319.3906 L655.25,1320.3125 Q655.25,1321.3438 656.0938,1322.0313 Q656.9375,1322.7188 658.4375,1322.7188 Q659.3281,1322.7188 659.9531,1322.5156 Q660.3125,1322.4063 660.7188,1322.0469 Q660.9844,1321.8438 661.125,1321.7813 Q661.2656,1321.7188 661.4375,1321.7188 Q661.7656,1321.7188 662,1321.9844 Q662.25,1322.2344 662.25,1322.5938 Q662.25,1322.9375 661.9063,1323.3438 Q661.4063,1323.9375 660.6094,1324.2656 Q659.5625,1324.7188 658.2813,1324.7188 Q656.7813,1324.7188 655.5781,1324.125 Q654.6094,1323.6563 653.9219,1322.6406 Q653.25,1321.625 653.25,1320.4219 L653.25,1319.3281 Q653.25,1318.0781 653.8438,1316.9844 Q654.4531,1315.8906 655.5,1315.3125 Q656.5625,1314.7188 657.75,1314.7188 Q658.4688,1314.7188 659.0938,1314.9688 Q659.7188,1315.2188 660.25,1315.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="196" x="672.75" y="1324.1289">CsvFileReaderSemiConlonAdaptee</text><line style="stroke:#A80036;stroke-width:1.5;" x1="642" x2="873" y1="1335.2188" y2="1335.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="647" y="1350.6377">-snsUserDTOList : List&lt;SnsUserDTO&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="647" y="1364.4736">-HEADER : String []</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="647" y="1378.3096">-SEMI_COLON : String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="642" x2="873" y1="1384.7266" y2="1384.7266"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="647" y="1400.1455">+CsvFileReaderSemiConlonAdaptee()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="221" x="647" y="1413.9814">+checkHeader(header, validHeader) : String []</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="647" y="1427.8174">+readFile(pathName) : void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="647" y="1441.6533">+readFileLine(elements) : void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="647" y="1455.4893">+readAddress(address) : String []</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="183" x="647" y="1469.3252">+addSnsUser(snsUserDTO) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="647" y="1483.1611">+isCsvType(filePath) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="647" y="1496.9971">+getSnsUserDTOList() : List&lt;SnsUserDTO&gt;</text><!--MD5=[0390ba878ce20b81bf763b8253edf275]
+class CsvFileReaderAPISemiColonAdapter--><rect codeLine="141" fill="#FEFECE" filter="url(#f4po7h3rp7qh8)" height="75.6719" id="CsvFileReaderAPISemiColonAdapter" style="stroke:#A80036;stroke-width:1.5;" width="314" x="600.5" y="1017.7188"/><ellipse cx="651.25" cy="1033.7188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M653.25,1030.2188 Q653.4531,1029.7188 653.6875,1029.4688 Q653.9219,1029.2188 654.1875,1029.2188 Q654.6563,1029.2188 654.9531,1029.5 Q655.25,1029.7813 655.25,1030.4375 L655.25,1032 Q655.25,1032.6563 654.9688,1032.9375 Q654.6875,1033.2188 654.25,1033.2188 Q653.8594,1033.2188 653.6094,1033.0469 Q653.3594,1032.875 653.25,1032.4219 Q653.2031,1032.1094 653.0313,1031.9375 Q652.7188,1031.6094 652.1563,1031.4219 Q651.5938,1031.2188 651.0313,1031.2188 Q650.3281,1031.2188 649.7344,1031.5 Q649.1563,1031.7813 648.7031,1032.4063 Q648.25,1033.0313 648.25,1033.8906 L648.25,1034.8125 Q648.25,1035.8438 649.0938,1036.5313 Q649.9375,1037.2188 651.4375,1037.2188 Q652.3281,1037.2188 652.9531,1037.0156 Q653.3125,1036.9063 653.7188,1036.5469 Q653.9844,1036.3438 654.125,1036.2813 Q654.2656,1036.2188 654.4375,1036.2188 Q654.7656,1036.2188 655,1036.4844 Q655.25,1036.7344 655.25,1037.0938 Q655.25,1037.4375 654.9063,1037.8438 Q654.4063,1038.4375 653.6094,1038.7656 Q652.5625,1039.2188 651.2813,1039.2188 Q649.7813,1039.2188 648.5781,1038.625 Q647.6094,1038.1563 646.9219,1037.1406 Q646.25,1036.125 646.25,1034.9219 L646.25,1033.8281 Q646.25,1032.5781 646.8438,1031.4844 Q647.4531,1030.3906 648.5,1029.8125 Q649.5625,1029.2188 650.75,1029.2188 Q651.4688,1029.2188 652.0938,1029.4688 Q652.7188,1029.7188 653.25,1030.2188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="204" x="671.75" y="1038.6289">CsvFileReaderAPISemiColonAdapter</text><line style="stroke:#A80036;stroke-width:1.5;" x1="601.5" x2="913.5" y1="1049.7188" y2="1049.7188"/><line style="stroke:#A80036;stroke-width:1.5;" x1="601.5" x2="913.5" y1="1057.7188" y2="1057.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189" x="606.5" y="1073.1377">+CsvFileReaderAPISemiColonAdapter()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="302" x="606.5" y="1086.9736">+readFileFromExternalSource (pathName) : List&lt;SnsUserDTO&gt;</text><!--MD5=[0b4151a475508124fc544eabfc0722eb]
+link LoadCsvFileUI to LoadCsvFileController--><path codeLine="147" d="M479.5,90.2587 C479.5,105.9288 479.5,127.1288 479.5,145.7987 " fill="none" id="LoadCsvFileUI-to-LoadCsvFileController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="479.5,150.9887,483.5,141.9887,479.5,145.9887,475.5,141.9887,479.5,150.9887" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e7f09bcb0bba091cf9b44ab454c8c80a]
+link LoadCsvFileController to Company--><path codeLine="150" d="M479.5,227.2188 C479.5,266.1488 479.5,327.8788 479.5,372.7687 " fill="none" id="LoadCsvFileController-to-Company" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="479.5,377.8788,483.5,368.8788,479.5,372.8788,475.5,368.8788,479.5,377.8788" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="472.0297" y="367.3334">1</text><!--MD5=[73578e536d3cad610b43d7274c432f2a]
+link Company to SnsUserStore--><path codeLine="153" d="M473.69,481.4388 C468.6,525.9788 461.08,591.6388 455.09,643.9688 " fill="none" id="Company-to-SnsUserStore" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="454.51,648.9888,459.5116,640.5044,455.081,644.0215,451.5639,639.5909,454.51,648.9888" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="460.5" y="615.7139">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="465.439" y="502.9593">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="448.018" y="638.4269">1</text><!--MD5=[4278f0fa7ad9429aa671ab58a09e9969]
+reverse link SnsUserMapper to SnsUserStore--><path codeLine="156" d="M183.44,728.7188 C205.83,728.7188 230.64,728.7188 255.8,728.7188 " fill="none" id="SnsUserMapper-backto-SnsUserStore" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="178.4,728.7188,187.4,732.7188,183.4,728.7188,187.4,724.7188,178.4,728.7188" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="203" y="722.2139">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="186.0828" y="725.5556">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="241.2531" y="725.9143">1</text><!--MD5=[36ff57e04b445edb1aaa7eeb03a93ced]
+link SnsUserStore to SnsUser--><path codeLine="157" d="M445.5,808.3888 C445.5,830.5788 445.5,855.6488 445.5,881.0788 " fill="none" id="SnsUserStore-to-SnsUser" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="445.5,886.1688,449.5,877.1688,445.5,881.1688,441.5,877.1688,445.5,886.1688" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="446.5" y="852.7139">stores</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="438.1992" y="829.4465">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="440.3867" y="875.6367">*</text><!--MD5=[a5e7276221a6cb62d87881ff9dede306]
+reverse link PasswordGenerator to SnsUserStore--><path codeLine="158" d="M323.95,514.1188 C348.01,556.3988 377.07,607.4588 400.74,649.0588 " fill="none" id="PasswordGenerator-backto-SnsUserStore" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="321.35,509.5287,322.3249,519.3292,323.823,513.8744,329.2779,515.3724,321.35,509.5287" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="382.5" y="615.7139">asks for</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="317.7743" y="530.3231">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="389.1402" y="638.2304">1</text><!--MD5=[25ed543132f066e1b0375bf22ce27e12]
+reverse link AuthFacade to SnsUserStore--><path codeLine="159" d="M670.11,499.2687 C626.15,543.9688 568.66,602.4488 522.84,649.0488 " fill="none" id="AuthFacade-backto-SnsUserStore" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="673.78,495.5287,664.6165,499.1386,670.2732,499.0928,670.319,504.7495,673.78,495.5287" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="565.5" y="615.7139">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="659.8479" y="516.6528">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="522.6471" y="638.4924">1</text><!--MD5=[ad83ec8bccef7db1658c8e05ba8163a9]
+reverse link SnsUserDTO to SnsUserMapper--><path codeLine="162" d="M88.94,576.5388 C89.93,618.7988 90.94,661.3488 91.62,690.4988 " fill="none" id="SnsUserDTO-backto-SnsUserMapper" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="88.82,571.3888,85.0267,580.4778,88.9343,576.3874,93.0246,580.295,88.82,571.3888" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="91.5" y="615.7139">mapps</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="81.8102" y="593.0728">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="83.8398" y="679.8215">1</text><!--MD5=[d8651c1d76c0e0b5bd3ef1f1603fac36]
+link SnsUserStore to LoadSnsUsersFromExternalSource--><path codeLine="166" d="M635,728.7188 C671.22,728.7188 708.83,728.7188 744.1,728.7188 " fill="none" id="SnsUserStore-to-LoadSnsUsersFromExternalSource" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="749.29,728.7188,740.29,724.7188,744.29,728.7188,740.29,732.7188,749.29,728.7188" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="653.25" y="722.2139">makes use of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="643.1422" y="725.8904">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="734.5056" y="725.8389">1</text><!--MD5=[f796709b55b5b8f195e1bedf15151b2c]
+reverse link LoadSnsUsersFromExternalSource to CsvFileReaderAPICommaAdapter--><path codeLine="167" d="M935.81,777.3488 C975.93,842.5488 1047.12,958.2288 1083.58,1017.4788 " fill="none" id="LoadSnsUsersFromExternalSource-backto-CsvFileReaderAPICommaAdapter" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="929.66,780.7088,925.14,759.9988,941.58,773.3688,929.66,780.7088" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="983.5" y="852.7139">implements</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="921.0261" y="781.0308">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1071.8739" y="1006.7979">1</text><!--MD5=[1d78a6bcdfdabd487e84649b17573527]
+reverse link LoadSnsUsersFromExternalSource to CsvFileReaderAPISemiColonAdapter--><path codeLine="168" d="M884.28,778.1888 C854.32,843.5288 801.62,958.4788 774.57,1017.4788 " fill="none" id="LoadSnsUsersFromExternalSource-backto-CsvFileReaderAPISemiColonAdapter" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="877.92,775.2688,892.62,759.9988,890.64,781.0988,877.92,775.2688" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="854.5" y="852.7139">implements</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="882.3069" y="781.0308">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="769.9872" y="1006.7979">1</text><!--MD5=[9033d3282edda72dcad77edb109dfeb4]
+link CsvFileReaderAPICommaAdapter to CsvFileReaderCommaAdptee--><path codeLine="171" d="M1106.5,1094.0188 C1106.5,1145.6488 1106.5,1240.5388 1106.5,1311.4488 " fill="none" id="CsvFileReaderAPICommaAdapter-to-CsvFileReaderCommaAdptee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1106.5,1316.5088,1110.5,1307.5088,1106.5,1311.5088,1102.5,1307.5088,1106.5,1316.5088" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="1107.5" y="1269.7139">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1098.9422" y="1114.9471">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1099.1992" y="1305.9003">1</text><!--MD5=[303b6c6658e5cdc304d7ba7831dd04d9]
+link CsvFileReaderAPISemiColonAdapter to CsvFileReaderSemiConlonAdaptee--><path codeLine="172" d="M757.5,1094.0188 C757.5,1142.3988 757.5,1228.7688 757.5,1297.7888 " fill="none" id="CsvFileReaderAPISemiColonAdapter-to-CsvFileReaderSemiConlonAdaptee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="757.5,1303.1488,761.5,1294.1488,757.5,1298.1488,753.5,1294.1488,757.5,1303.1488" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="758.5" y="1269.7139">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="749.9422" y="1114.9471">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="750.232" y="1292.3757">1</text><!--MD5=[2b43bffbb6ae7b59ad4a746d727b65f6]
+@startuml
+skinparam classAttributeIconSize 0
+skinparam titleFontSize 28
+top to bottom direction
+
+title Class Diagram: Load a csv file
+
+class LoadCsvFileUI {
+}
+
+class LoadCsvFileController {
+    +getListFromExternalModule(fileName)
+    +registerSnsUsersFromExternalModule(snsUserDTOList)
+}
+
+class Company
+{
+  -designation : String
+  - snsUserStore : SnsUserStore
+  +getSnsUserStore():SnsUserStore
+  (...)
+}
+
+class SnsUserStore
+{
+  -snsUserStore:SnsUser
+  +createSnsUser (SnsUserDTO):SnsUser
+  +registerSnsUser(SnsUserDTO) : boolean
+  +checkIfUserAlreadyExists(SnsUserDTO) : boolean
+  +registerSnsUsersFromExternalModule(List<SnsUserDTO>) : Set<SnsUser>
+  +getClassName(filePath) : String
+  +getListFromExternalModule(filePath) : List<SnsUserDTO>
+  (...)
+}
+
+class SnsUserMapper{
+  +toModel(SnsUserDTO):SnsUser
+  (...)
+}
+
+class SnsUser {
+  -id:String
+  -name:String
+  -email:String
+  -gender:Gender
+  -birthDate:Date
+  -snsNumber:long
+  -address:Address
+  -phoneNumber:String
+  -citizenCardNumber:long
+  +getId():String
+  +getName():String
+  +getEmail():String
+  +getGender():Gender
+  +getBirthDate():Date
+  +getSnsNumber():long
+  +getAddress():Address
+  +getPhoneNumber():String
+  +getCitizenCardNumber():long
+  +setId(String):void
+  -validateId(String):void
+  -validateSnsNumber(long):void
+}
+
+class SnsUserDTO {
+  -id:String
+  -name:String
+  -email:String
+  -gender:Gender
+  -birthDate:Date
+  -snsNumber:long
+  -address:Address
+  -phoneNumber:String
+  -citizenCardNumber:long
+    +getName():String
+    +getEmail():String
+    +getGender():Gender
+    +getBirthDate():Date
+    +getSnsNumber():long
+    +getAddress():Address
+    +getPhoneNumber():String
+    +getCitizenCardNumber():long
+}
+
+class PasswordGenerator {
+  -PASSWORD_LENGTH: String
+  -DIGIT: String
+  -CHAR_LOWERCASE: String
+  -CHAR_UPPERCASE: String
+  -PASSWORD_ALLOW: String
+  -random: SecureRandom
+  +generatePassword(): String
+  (...)
+}
+
+class AuthFacade  {
+  -userSession:UserSession
+  -roles:UserRoleStore
+  -users:UserStore
+  +addUserWithRole(name, email, pwd, roleId):boolean
+  +existsUser(email):boolean
+  (...)
+}
+
+interface LoadSnsUsersFromExternalSource {
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+}
+
+class CsvFileReaderAPICommaAdapter {
+
+    +CsvFileReaderAPICommaAdapter()
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+
+}
+class CsvFileReaderCommaAdptee {
+    -snsUserDTOList : List<SnsUserDTO>
+    -COMMA : String
+    +CsvFileReaderCommaAdptee()
+    +readFile(pathName) : void
+    +readFileLine(elements) : void
+    +readAddress(address) : String []
+    +addSnsUser(snsUserDTO) : boolean
+    +isCsvType(filePath) : boolean
+    +getSnsUserDTOList() : List<SnsUserDTO>
+
+}
+
+class CsvFileReaderSemiConlonAdaptee {
+    -snsUserDTOList : List<SnsUserDTO>
+    -HEADER : String []
+    -SEMI_COLON : String
+    +CsvFileReaderSemiConlonAdaptee()
+    +checkHeader(header, validHeader) : String []
+    +readFile(pathName) : void
+    +readFileLine(elements) : void
+    +readAddress(address) : String []
+    +addSnsUser(snsUserDTO) : boolean
+    +isCsvType(filePath) : boolean
+    +getSnsUserDTOList() : List<SnsUserDTO>
+}
+
+class CsvFileReaderAPISemiColonAdapter {
+    +CsvFileReaderAPISemiColonAdapter()
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+}
+
+'UI'
+LoadCsvFileUI ..> LoadCsvFileController
+
+'Controller'
+LoadCsvFileController ..> "1" Company
+
+'Company'
+Company "1" -d-> "1" SnsUserStore : uses
+
+'SnsUserStore'
+SnsUserStore "1" -l-> "1" SnsUserMapper : uses
+SnsUserStore "1" - -> "*" SnsUser : stores
+SnsUserStore "1" -u-> "1" PasswordGenerator : asks for
+SnsUserStore "1" -u-> "1" AuthFacade : uses
+
+'SnsUserMapper'
+SnsUserMapper "1" -u-> "1" SnsUserDTO : mapps
+
+
+'interface and adapter'
+SnsUserStore "1"->"1" LoadSnsUsersFromExternalSource : makes use of
+CsvFileReaderAPICommaAdapter "1" .u.|> "1" LoadSnsUsersFromExternalSource : implements
+CsvFileReaderAPISemiColonAdapter "1" .u.|> "1" LoadSnsUsersFromExternalSource : implements
+
+'adapter with adaptee'
+CsvFileReaderAPICommaAdapter "1" -d-> "1" CsvFileReaderCommaAdptee : uses
+CsvFileReaderAPISemiColonAdapter "1" -d-> "1" CsvFileReaderSemiConlonAdaptee : uses
+
+
+
+
+
+
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam titleFontSize 28
+top to bottom direction
+
+title Class Diagram: Load a csv file
+
+class LoadCsvFileUI {
+}
+
+class LoadCsvFileController {
+    +getListFromExternalModule(fileName)
+    +registerSnsUsersFromExternalModule(snsUserDTOList)
+}
+
+class Company
+{
+  -designation : String
+  - snsUserStore : SnsUserStore
+  +getSnsUserStore():SnsUserStore
+  (...)
+}
+
+class SnsUserStore
+{
+  -snsUserStore:SnsUser
+  +createSnsUser (SnsUserDTO):SnsUser
+  +registerSnsUser(SnsUserDTO) : boolean
+  +checkIfUserAlreadyExists(SnsUserDTO) : boolean
+  +registerSnsUsersFromExternalModule(List<SnsUserDTO>) : Set<SnsUser>
+  +getClassName(filePath) : String
+  +getListFromExternalModule(filePath) : List<SnsUserDTO>
+  (...)
+}
+
+class SnsUserMapper{
+  +toModel(SnsUserDTO):SnsUser
+  (...)
+}
+
+class SnsUser {
+  -id:String
+  -name:String
+  -email:String
+  -gender:Gender
+  -birthDate:Date
+  -snsNumber:long
+  -address:Address
+  -phoneNumber:String
+  -citizenCardNumber:long
+  +getId():String
+  +getName():String
+  +getEmail():String
+  +getGender():Gender
+  +getBirthDate():Date
+  +getSnsNumber():long
+  +getAddress():Address
+  +getPhoneNumber():String
+  +getCitizenCardNumber():long
+  +setId(String):void
+  -validateId(String):void
+  -validateSnsNumber(long):void
+}
+
+class SnsUserDTO {
+  -id:String
+  -name:String
+  -email:String
+  -gender:Gender
+  -birthDate:Date
+  -snsNumber:long
+  -address:Address
+  -phoneNumber:String
+  -citizenCardNumber:long
+    +getName():String
+    +getEmail():String
+    +getGender():Gender
+    +getBirthDate():Date
+    +getSnsNumber():long
+    +getAddress():Address
+    +getPhoneNumber():String
+    +getCitizenCardNumber():long
+}
+
+class PasswordGenerator {
+  -PASSWORD_LENGTH: String
+  -DIGIT: String
+  -CHAR_LOWERCASE: String
+  -CHAR_UPPERCASE: String
+  -PASSWORD_ALLOW: String
+  -random: SecureRandom
+  +generatePassword(): String
+  (...)
+}
+
+class AuthFacade  {
+  -userSession:UserSession
+  -roles:UserRoleStore
+  -users:UserStore
+  +addUserWithRole(name, email, pwd, roleId):boolean
+  +existsUser(email):boolean
+  (...)
+}
+
+interface LoadSnsUsersFromExternalSource {
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+}
+
+class CsvFileReaderAPICommaAdapter {
+
+    +CsvFileReaderAPICommaAdapter()
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+
+}
+class CsvFileReaderCommaAdptee {
+    -snsUserDTOList : List<SnsUserDTO>
+    -COMMA : String
+    +CsvFileReaderCommaAdptee()
+    +readFile(pathName) : void
+    +readFileLine(elements) : void
+    +readAddress(address) : String []
+    +addSnsUser(snsUserDTO) : boolean
+    +isCsvType(filePath) : boolean
+    +getSnsUserDTOList() : List<SnsUserDTO>
+
+}
+
+class CsvFileReaderSemiConlonAdaptee {
+    -snsUserDTOList : List<SnsUserDTO>
+    -HEADER : String []
+    -SEMI_COLON : String
+    +CsvFileReaderSemiConlonAdaptee()
+    +checkHeader(header, validHeader) : String []
+    +readFile(pathName) : void
+    +readFileLine(elements) : void
+    +readAddress(address) : String []
+    +addSnsUser(snsUserDTO) : boolean
+    +isCsvType(filePath) : boolean
+    +getSnsUserDTOList() : List<SnsUserDTO>
+}
+
+class CsvFileReaderAPISemiColonAdapter {
+    +CsvFileReaderAPISemiColonAdapter()
+    +readFileFromExternalSource (pathName) : List<SnsUserDTO>
+}
+
+LoadCsvFileUI ..> LoadCsvFileController
+
+LoadCsvFileController ..> "1" Company
+
+Company "1" -d-> "1" SnsUserStore : uses
+
+SnsUserStore "1" -l-> "1" SnsUserMapper : uses
+SnsUserStore "1" - -> "*" SnsUser : stores
+SnsUserStore "1" -u-> "1" PasswordGenerator : asks for
+SnsUserStore "1" -u-> "1" AuthFacade : uses
+
+SnsUserMapper "1" -u-> "1" SnsUserDTO : mapps
+
+
+SnsUserStore "1"->"1" LoadSnsUsersFromExternalSource : makes use of
+CsvFileReaderAPICommaAdapter "1" .u.|> "1" LoadSnsUsersFromExternalSource : implements
+CsvFileReaderAPISemiColonAdapter "1" .u.|> "1" LoadSnsUsersFromExternalSource : implements
+
+CsvFileReaderAPICommaAdapter "1" -d-> "1" CsvFileReaderCommaAdptee : uses
+CsvFileReaderAPISemiColonAdapter "1" -d-> "1" CsvFileReaderSemiConlonAdaptee : uses
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

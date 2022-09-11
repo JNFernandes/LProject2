@@ -1,0 +1,35 @@
+@startuml
+hide methods
+'left to right direction
+scale 500 height
+
+
+class Company {
+    \n
+}
+
+class SNSUser {
+    - name: String
+    - gender: Gender
+    - birthDate: Date
+    - snsNumber: long
+    - address: Address
+    - phoneNumber: String
+    - citizenCardNumber: long
+}
+
+class Administrator{
+    \n
+}
+
+class ExternalModule #A9DCDF {
+  \n
+}
+
+Company "1" - "*" Administrator : has >
+Administrator "1" -[#DarkTurquoise,bold]- "1" ExternalModule : makes use of >
+Administrator "1" -[#DarkTurquoise,bold]- "*" SNSUser : registers >
+Company "1" - "*" SNSUser :  owns >
+ExternalModule "1" -[#DarkTurquoise,bold]- "*" SNSUser : has >
+
+@enduml

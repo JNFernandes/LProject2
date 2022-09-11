@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="500.1654px" preserveAspectRatio="none" style="width:438px;height:500px;background:#FFFFFF;" version="1.1" viewBox="0 0 438 500" width="438.8979px" zoomAndPan="magnify"><defs><filter height="300%" id="f1drxjgb6fqvhh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.2279080291716706"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.455816058343341" dy="4.455816058343341" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="6" fill="#FEFECE" filter="url(#f1drxjgb6fqvhh)" height="75.3834" id="Company" style="stroke:#A80036;stroke-width:1.670931021878753;" width="94.6861" x="7.7977" y="7.7977"/><ellipse cx="24.507" cy="25.6209" fill="#ADD1B2" rx="12.2535" ry="12.2535" style="stroke:#A80036;stroke-width:1.1139540145858353;"/><path d="M26.7349,21.7221 Q26.9612,21.1651 27.2223,20.8866 Q27.4833,20.6081 27.7792,20.6081 Q28.3014,20.6081 28.6321,20.9214 Q28.9628,21.2347 28.9628,21.9658 L28.9628,23.7063 Q28.9628,24.4374 28.6495,24.7507 Q28.3362,25.064 27.8489,25.064 Q27.4137,25.064 27.1352,24.8725 Q26.8567,24.681 26.7349,24.1763 Q26.6827,23.8282 26.4912,23.6367 Q26.1431,23.2712 25.5165,23.0623 Q24.8899,22.8361 24.2633,22.8361 Q23.4801,22.8361 22.8187,23.1494 Q22.1746,23.4627 21.6699,24.1589 Q21.1651,24.8551 21.1651,25.8124 L21.1651,26.8393 Q21.1651,27.9881 22.105,28.7539 Q23.0449,29.5198 24.7159,29.5198 Q25.708,29.5198 26.4042,29.2935 Q26.8045,29.1717 27.2571,28.7713 Q27.553,28.5451 27.7096,28.4754 Q27.8663,28.4058 28.0577,28.4058 Q28.4232,28.4058 28.6843,28.7017 Q28.9628,28.9802 28.9628,29.3805 Q28.9628,29.7635 28.5799,30.216 Q28.0229,30.8774 27.1352,31.2429 Q25.9691,31.7477 24.5418,31.7477 Q22.8709,31.7477 21.5306,31.0863 Q20.4515,30.5641 19.6857,29.4328 Q18.9372,28.3014 18.9372,26.9612 L18.9372,25.7428 Q18.9372,24.3503 19.5986,23.132 Q20.2774,21.9136 21.4436,21.2696 Q22.6272,20.6081 23.95,20.6081 Q24.7507,20.6081 25.4469,20.8866 Q26.1431,21.1651 26.7349,21.7221 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="13.3674" lengthAdjust="spacing" textLength="59.0396" x="40.1023" y="31.0906">Company</text><line style="stroke:#A80036;stroke-width:1.670931021878753;" x1="8.9116" x2="101.3698" y1="43.4442" y2="43.4442"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="0" x="17.8233" y="60.6202"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="0" x="17.8233" y="76.0328"/><!--MD5=[72be06cc7ae02ccc98efe28a50e62246]
+class SNSUser--><rect codeLine="10" fill="#FEFECE" filter="url(#f1drxjgb6fqvhh)" height="152.4463" id="SNSUser" style="stroke:#A80036;stroke-width:1.670931021878753;" width="159.2954" x="103.5977" y="333.0723"/><ellipse cx="149.8825" cy="350.8955" fill="#ADD1B2" rx="12.2535" ry="12.2535" style="stroke:#A80036;stroke-width:1.1139540145858353;"/><path d="M152.1104,346.9967 Q152.3367,346.4397 152.5978,346.1612 Q152.8589,345.8827 153.1548,345.8827 Q153.6769,345.8827 154.0076,346.196 Q154.3383,346.5093 154.3383,347.2404 L154.3383,348.9809 Q154.3383,349.7119 154.025,350.0252 Q153.7117,350.3385 153.2244,350.3385 Q152.7892,350.3385 152.5107,350.1471 Q152.2323,349.9556 152.1104,349.4509 Q152.0582,349.1027 151.8667,348.9113 Q151.5186,348.5458 150.892,348.3369 Q150.2654,348.1106 149.6388,348.1106 Q148.8556,348.1106 148.1942,348.4239 Q147.5502,348.7372 147.0454,349.4334 Q146.5407,350.1297 146.5407,351.087 L146.5407,352.1139 Q146.5407,353.2627 147.4805,354.0285 Q148.4204,354.7944 150.0914,354.7944 Q151.0835,354.7944 151.7797,354.5681 Q152.18,354.4462 152.6326,354.0459 Q152.9285,353.8196 153.0851,353.75 Q153.2418,353.6804 153.4332,353.6804 Q153.7988,353.6804 154.0598,353.9763 Q154.3383,354.2548 154.3383,354.6551 Q154.3383,355.038 153.9554,355.4906 Q153.3984,356.152 152.5107,356.5175 Q151.3446,357.0223 149.9173,357.0223 Q148.2464,357.0223 146.9062,356.3609 Q145.827,355.8387 145.0612,354.7073 Q144.3127,353.576 144.3127,352.2357 L144.3127,351.0174 Q144.3127,349.6249 144.9742,348.4065 Q145.653,347.1881 146.8191,346.5441 Q148.0027,345.8827 149.3255,345.8827 Q150.1262,345.8827 150.8224,346.1612 Q151.5186,346.4397 152.1104,346.9967 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="13.3674" lengthAdjust="spacing" textLength="57.9256" x="172.0502" y="356.3652">SNSUser</text><line style="stroke:#A80036;stroke-width:1.670931021878753;" x1="104.7117" x2="261.7792" y1="368.7188" y2="368.7188"/><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="377.6304"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="66.8372" x="125.8768" y="385.8948">name: String</text><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="393.043"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="84.6605" x="125.8768" y="401.3074">gender: Gender</text><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="408.4556"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="79.0907" x="125.8768" y="416.72">birthDate: Date</text><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="423.8682"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="90.2303" x="125.8768" y="432.1326">snsNumber: long</text><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="439.2808"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="98.028" x="125.8768" y="447.5452">address: Address</text><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="454.6934"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="112.5094" x="125.8768" y="462.9578">phoneNumber: String</text><rect fill="none" height="6.6837" style="stroke:#C82930;stroke-width:1.1139540145858353;" width="6.6837" x="112.5094" y="470.106"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="130.3326" x="125.8768" y="478.3704">citizenCardNumber: long</text><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="20" fill="#FEFECE" filter="url(#f1drxjgb6fqvhh)" height="75.3834" id="Administrator" style="stroke:#A80036;stroke-width:1.670931021878753;" width="116.9652" x="181.5745" y="7.7977"/><ellipse cx="198.2838" cy="25.6209" fill="#ADD1B2" rx="12.2535" ry="12.2535" style="stroke:#A80036;stroke-width:1.1139540145858353;"/><path d="M200.5117,21.7221 Q200.738,21.1651 200.9991,20.8866 Q201.2602,20.6081 201.5561,20.6081 Q202.0782,20.6081 202.4089,20.9214 Q202.7396,21.2347 202.7396,21.9658 L202.7396,23.7063 Q202.7396,24.4374 202.4263,24.7507 Q202.113,25.064 201.6257,25.064 Q201.1905,25.064 200.912,24.8725 Q200.6336,24.681 200.5117,24.1763 Q200.4595,23.8282 200.268,23.6367 Q199.9199,23.2712 199.2933,23.0623 Q198.6667,22.8361 198.0401,22.8361 Q197.2569,22.8361 196.5955,23.1494 Q195.9515,23.4627 195.4467,24.1589 Q194.942,24.8551 194.942,25.8124 L194.942,26.8393 Q194.942,27.9881 195.8819,28.7539 Q196.8217,29.5198 198.4927,29.5198 Q199.4848,29.5198 200.181,29.2935 Q200.5813,29.1717 201.0339,28.7713 Q201.3298,28.5451 201.4864,28.4754 Q201.6431,28.4058 201.8345,28.4058 Q202.2001,28.4058 202.4611,28.7017 Q202.7396,28.9802 202.7396,29.3805 Q202.7396,29.7635 202.3567,30.216 Q201.7997,30.8774 200.912,31.2429 Q199.7459,31.7477 198.3186,31.7477 Q196.6477,31.7477 195.3075,31.0863 Q194.2283,30.5641 193.4625,29.4328 Q192.714,28.3014 192.714,26.9612 L192.714,25.7428 Q192.714,24.3503 193.3755,23.132 Q194.0543,21.9136 195.2204,21.2696 Q196.404,20.6081 197.7268,20.6081 Q198.5275,20.6081 199.2237,20.8866 Q199.9199,21.1651 200.5117,21.7221 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="13.3674" lengthAdjust="spacing" textLength="81.3186" x="213.8792" y="31.0906">Administrator</text><line style="stroke:#A80036;stroke-width:1.670931021878753;" x1="182.6885" x2="297.4257" y1="43.4442" y2="43.4442"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="0" x="191.6001" y="60.6202"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="0" x="191.6001" y="76.0328"/><!--MD5=[8f188b89eff49accb0f38c057b38a9f2]
+class ExternalModule--><rect codeLine="24" fill="#A9DCDF" filter="url(#f1drxjgb6fqvhh)" height="75.3834" id="ExternalModule" style="stroke:#A80036;stroke-width:1.670931021878753;" width="129.2187" x="294.6408" y="170.435"/><ellipse cx="311.3501" cy="188.2582" fill="#ADD1B2" rx="12.2535" ry="12.2535" style="stroke:#A80036;stroke-width:1.1139540145858353;"/><path d="M313.5781,184.3594 Q313.8043,183.8024 314.0654,183.5239 Q314.3265,183.2454 314.6224,183.2454 Q315.1446,183.2454 315.4753,183.5587 Q315.806,183.872 315.806,184.6031 L315.806,186.3436 Q315.806,187.0747 315.4927,187.388 Q315.1794,187.7013 314.692,187.7013 Q314.2569,187.7013 313.9784,187.5098 Q313.6999,187.3183 313.5781,186.8136 Q313.5258,186.4655 313.3344,186.274 Q312.9863,185.9085 312.3597,185.6996 Q311.7331,185.4733 311.1065,185.4733 Q310.3232,185.4733 309.6618,185.7866 Q309.0178,186.0999 308.513,186.7962 Q308.0083,187.4924 308.0083,188.4497 L308.0083,189.4766 Q308.0083,190.6254 308.9482,191.3912 Q309.8881,192.1571 311.559,192.1571 Q312.5511,192.1571 313.2474,191.9308 Q313.6477,191.809 314.1002,191.4086 Q314.3961,191.1824 314.5528,191.1127 Q314.7094,191.0431 314.9009,191.0431 Q315.2664,191.0431 315.5275,191.339 Q315.806,191.6175 315.806,192.0178 Q315.806,192.4007 315.423,192.8533 Q314.8661,193.5147 313.9784,193.8802 Q312.8122,194.385 311.385,194.385 Q309.714,194.385 308.3738,193.7236 Q307.2947,193.2014 306.5288,192.07 Q305.7804,190.9387 305.7804,189.5985 L305.7804,188.3801 Q305.7804,186.9876 306.4418,185.7692 Q307.1206,184.5509 308.2868,183.9068 Q309.4703,183.2454 310.7932,183.2454 Q311.5938,183.2454 312.29,183.5239 Q312.9863,183.8024 313.5781,184.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="13.3674" lengthAdjust="spacing" textLength="93.5721" x="326.9455" y="193.7279">ExternalModule</text><line style="stroke:#A80036;stroke-width:1.670931021878753;" x1="295.7548" x2="422.7455" y1="206.0815" y2="206.0815"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="0" x="304.6664" y="223.2575"/><text fill="#000000" font-family="sans-serif" font-size="12.2535" lengthAdjust="spacing" textLength="0" x="304.6664" y="238.6701"/><!--MD5=[eaea43e34e45c5b9d20b595fc78f1f20]
+link Company to Administrator--><path codeLine="28" d="M102.7623,45.6721 C126.7345,45.6721 156.0093,45.6721 181.3629,45.6721 " fill="none" id="Company-Administrator" style="stroke:#A80036;stroke-width:1.1139540145858353;"/><polygon fill="#000000" points="133.1175,32.5005,123.0417,29.2266,123.0417,35.7743,133.1175,32.5005" style="stroke:#000000;stroke-width:1.1139540145858353;"/><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="23.393" x="137.5733" y="38.426">has</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="7.7977" x="111.2953" y="41.4685">1</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="5.5698" x="167.1476" y="41.6818">*</text><!--MD5=[674072625e7a2168ba5320be6fe04688]
+link Administrator to ExternalModule--><path codeLine="29" d="M267.4047,83.5911 C286.6426,109.4905 312.3081,144.0231 331.6241,170.0117 " fill="none" id="Administrator-ExternalModule" style="stroke:#00CED1;stroke-width:2.2279080291716706;"/><polygon fill="#000000" points="314.6722,131.6571,311.2902,121.6171,306.0348,125.5225,314.6722,131.6571" style="stroke:#000000;stroke-width:1.1139540145858353;"/><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="86.8884" x="321.3757" y="133.1121">makes use of</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="7.7977" x="263.7838" y="107.0332">1</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="7.7977" x="317.817" y="158.2942">1</text><!--MD5=[2b5fc2dce8eec1aafb1a3721aa50d3a4]
+link Administrator to SNSUser--><path codeLine="30" d="M226.478,83.5911 C218.0788,107.9087 207.8527,140.659 202.1827,170.435 C191.9454,224.1387 187.2334,285.6958 185.0612,332.7269 " fill="none" id="Administrator-SNSUser" style="stroke:#00CED1;stroke-width:2.2279080291716706;"/><polygon fill="#000000" points="206.839,213.9996,211.7209,204.5971,205.2619,203.5233,206.839,213.9996" style="stroke:#000000;stroke-width:1.1139540145858353;"/><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="55.6977" x="217.778" y="214.4307">registers</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="7.7977" x="215.5671" y="107.0332">1</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="5.5698" x="179.3915" y="321.1417">*</text><!--MD5=[1a8aa2b864b87f860d28abceaa28b7a5]
+link Company to SNSUser--><path codeLine="31" d="M68.252,83.7693 C88.9047,142.0737 129.4749,256.5325 156.4771,332.7269 " fill="none" id="Company-SNSUser" style="stroke:#A80036;stroke-width:1.1139540145858353;"/><polygon fill="#000000" points="133.864,213.7551,133.5842,203.1644,127.4126,205.3515,133.864,213.7551" style="stroke:#000000;stroke-width:1.1139540145858353;"/><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="33.4186" x="142.0291" y="214.4307">owns</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="7.7977" x="62.0952" y="107.2432">1</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="5.5698" x="147.8597" y="321.1417">*</text><!--MD5=[165379328e8160f001e9cf12340ddb3f]
+link ExternalModule to SNSUser--><path codeLine="32" d="M326.5556,246.3621 C305.0897,270.6128 276.2272,303.2183 250.027,332.816 " fill="none" id="ExternalModule-SNSUser" style="stroke:#00CED1;stroke-width:2.2279080291716706;"/><polygon fill="#000000" points="294.291,293.9944,303.4208,288.6198,298.518,284.2799,294.291,293.9944" style="stroke:#000000;stroke-width:1.1139540145858353;"/><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="23.393" x="308.0083" y="295.7494">has</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="7.7977" x="312.2397" y="269.828">1</text><text fill="#000000" font-family="sans-serif" font-size="14.4814" lengthAdjust="spacing" textLength="5.5698" x="251.0569" y="321.24">*</text><!--MD5=[9154bdedf9d5dced1ed3bdc931360f88]
+@startuml
+hide methods
+'left to right direction
+scale 500 height
+
+
+class Company {
+    \n
+}
+
+class SNSUser {
+    - name: String
+    - gender: Gender
+    - birthDate: Date
+    - snsNumber: long
+    - address: Address
+    - phoneNumber: String
+    - citizenCardNumber: long
+}
+
+class Administrator{
+    \n
+}
+
+class ExternalModule #A9DCDF {
+  \n
+}
+
+Company "1" - "*" Administrator : has >
+Administrator "1" -[#DarkTurquoise,bold]- "1" ExternalModule : makes use of >
+Administrator "1" -[#DarkTurquoise,bold]- "*" SNSUser : registers >
+Company "1" - "*" SNSUser :  owns >
+ExternalModule "1" -[#DarkTurquoise,bold]- "*" SNSUser : has >
+
+@enduml
+
+@startuml
+hide methods
+scale 500 height
+
+
+class Company {
+    \n
+}
+
+class SNSUser {
+    - name: String
+    - gender: Gender
+    - birthDate: Date
+    - snsNumber: long
+    - address: Address
+    - phoneNumber: String
+    - citizenCardNumber: long
+}
+
+class Administrator{
+    \n
+}
+
+class ExternalModule #A9DCDF {
+  \n
+}
+
+Company "1" - "*" Administrator : has >
+Administrator "1" -[#DarkTurquoise,bold]- "1" ExternalModule : makes use of >
+Administrator "1" -[#DarkTurquoise,bold]- "*" SNSUser : registers >
+Company "1" - "*" SNSUser :  owns >
+ExternalModule "1" -[#DarkTurquoise,bold]- "*" SNSUser : has >
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

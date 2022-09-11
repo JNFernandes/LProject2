@@ -1,0 +1,43 @@
+@startuml
+hide methods
+'left to right direction
+scale 500 height
+
+
+class Company {
+    \n
+}
+
+class VaccinationCenter {
+    -name
+    -phoneNumber
+    -emailAddress
+    -faxNumber
+    -websiteAddress
+    -openingHours
+    -closingHours
+    -slotDuration
+    -maxNumVaccines
+}
+class Employee {
+        \n
+    }
+
+class CenterCoordinator {
+        \n
+    }
+
+
+
+class CenterPerformance #A9DCDF {
+        \n
+    }
+
+Company "1" -d- "*" Employee : employs >
+Employee "*" -d- "1" CenterCoordinator : is of >
+VaccinationCenter "1"  -u- "1" CenterCoordinator : has >
+CenterCoordinator "1" -[#DarkTurquoise,bold]d- "1" CenterPerformance : manages >
+VaccinationCenter "1" -[#DarkTurquoise,bold]d- "1" CenterPerformance : has >
+
+
+@enduml

@@ -1,0 +1,59 @@
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant "store: VaccineAdminstrationStore " as VAStore
+participant "listLeavings :List<LocalDateTime>" as listLeavings
+participant "listAvailableDaysForPerformance \n: List<LocalDate>" as listAvailableDaysForPerformance
+participant ":VaccineAdminstration" as vaccineAdminstration
+participant "listLeavings \n: List<LocalDateTime>" as listLeavings
+
+
+
+title : SD_getListLeavings(vaccinationCenterEmail)
+'1'
+[o-> VAStore : getListLeavings(vaccinationCenterEmail)
+activate VAStore
+
+'2'
+VAStore --> listLeavings ** : listLeavings = create()
+
+loop for each vaccineAdminstration
+'3'
+VAStore -> vaccineAdminstration : vaccineAdminstration = get(i)
+activate vaccineAdminstration
+deactivate vaccineAdminstration
+
+opt vaccineAdminstration is on vaccinationCenter
+'4'
+VAStore -> listLeavings : add(vaccineAdminstration.getLeavingDate())
+activate listLeavings
+
+end opt
+end loop
+'5'
+return listLeavings
+deactivate listLeavings
+
+'6'
+[<-- VAStore : listLeavings
+
+deactivate VAStore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

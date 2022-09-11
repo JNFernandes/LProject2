@@ -1,0 +1,23 @@
+@startuml
+autonumber
+actor "Center Coordinator" as CCord
+
+activate CCord
+CCord -> ":System" : wants to analyse the performance of \n a center for a specific day
+activate ":System"
+":System" --> CCord : shows the list of days available to \n analyse the performance
+deactivate ":System"
+
+CCord -> ":System" : selects one day
+activate ":System"
+":System" --> CCord : requests the time resolution to analyse \n the performance for the chosen day (min)
+deactivate ":System"
+
+CCord -> ":System" : types the time resolution
+activate ":System"
+":System" --> CCord : shows the worst case performance center
+deactivate ":System"
+
+deactivate CCord
+
+@enduml

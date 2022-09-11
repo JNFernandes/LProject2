@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Administrator" as Admin
+
+activate Admin
+Admin -> ":System" : starts  to load csv file
+activate ":System"
+":System" --> Admin : requests the file path
+deactivate ":System"
+
+Admin -> ":System" : types the path
+activate ":System"
+":System" --> Admin : shows sucess message\nand information of registed users
+deactivate ":System"
+
+
+deactivate Admin
+
+@enduml

@@ -1,0 +1,169 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam titleFontSize 28
+top to bottom direction
+
+title Class Diagram: Analyse performance of a cente
+
+package UI <<folder>>  {
+class CenterPerformanceUI {
+}
+}
+
+package Controller <<folder>> {
+class CenterPerformanceController {
+    +getListDaysForPerformance(String vaccinationCenterEmail)
+    +getVaccinationCenterWorkingPeriod(String vaccinationCenterEmail)
+    +calculatePerformanceBasedOnInterval(int timeResolution, LocalDate day, String vaccinationCenterEmail)
+}
+
+}
+
+package Domain <<folder>> {
+package Model <<folder>> {
+class Company
+{
+  -designation : String
+  -snsUserArrivalStore : SnsUserArrivalStore
+  -vaccineAdministrationStore : VaccineAdministrationStore
+  -vaccinationCenterStore : VaccinationCenterStore
+  +getSnsUserArrivalStore():SnsUserArrivalStore
+  +getVaccineAdministrationStore() :VaccineAdministrationStore
+  +getVaccinationCenterStore() : VaccinationCenterStore
+  (...)
+}
+class SnsUserArrival{
+  - arrivalDate :LocalDateTime
+  - snsUserNumber : SnsNumber
+  - vaccineSchedule : VaccinationSchedule
+  (...)
+}
+
+class VaccinationCenter{
+  - name :String
+  - phoneNumber : PhoneNumber
+  - address : Address
+  - emailAdress : Email
+  - faxNumber : PhoneNumber
+  - websiteAddress: String
+  - openingHours: String
+  - closingHours: String
+  - slotDuration: int
+  - maxNumVaccines: int
+  - centerCoordinator: Employee
+  +obtainWorkingPeriodMinutes() : long
+  +getClassNameForPerformanceAnalysis() : String
+  +getAdapterForPerformanceAnalysis(timeResolution, day, vaccinationCenter, listLeavings, listLeavings)
+  (...)
+}
+
+class VaccineAdministration{
+  - snsUserArrival :SnsUserArrival
+  - snsUser : SnsUser
+  - vaccine : Vaccine
+  - doseNumber : int
+  - lotNumber : String
+  - administrationDate: LocalDateTime
+  - leavingDate: LocalDateTime
+  - vaccineAdministrationState: VaccineAdministrationState
+  (...)
+}
+}
+
+
+package store <<folder>> {
+class SnsUserArrivalStore
+{
+  -snsUserArrivalStore:Set<SnsUserArrival>
+  ...
+  + getListDaysForPerformance(String vaccinationCenterEmail): List<LocalDate>
+  + getListArrivals(String vaccinationCenterEmail):List<LocalDateTime>
+  (...)
+}
+
+class VaccinationCenterStore
+{
+  -store : Set<VaccinationCenter>
+  ...
+  +getByEmail(String vaccinationCenterEmailAddress) : Optional<VaccinationCenter>
+  (...)
+}
+
+
+class VaccineAdministrationStore
+{
+  -vaccinationScheduleStore:Set<VaccineAdministration>
+  ...
+  + getListLeavings(String vaccinationCenterEmail)
+}
+}
+
+package interface <<folder>> {
+interface CenterPerformanceCalculation {
+    +calculatePerformance(timeResolution, day, workingPeriod, listArrivals, listLeavings)
+}
+}
+
+}
+
+
+
+package externalmodule <<folder>> {
+class BenchmarkAlgorithmAdapter {
+
+    +performanceAlgorithm(arr) : int []
+    +obtainFinalArray(arr,initial,ending): int []
+    +displayMessage(arr, step, initial, ending, day, max)
+    +calculatePerformance(timeResolution, day, workingPeriod, listArrivals, listLeavings)
+}
+
+class BruteForceAlgorithmAdapter {
+
+    +performanceAlgorithm(arr) : int []
+    +obtainFinalArray(arr,initial,ending): int []
+    +displayMessage(arr, step, initial, ending, day, max)
+    +calculatePerformance(timeResolution, day, workingPeriod, listArrivals, listLeavings)
+}
+
+class PreprocessingPerformance {
+    +getHoursList(dateOption, timeList) : List<String>
+    +convertFromListToArray(hoursList) : String []
+    +transformMinutesOnly(arr) : int []
+    +obtainPerformanceIntervalArray(minHoursArrival, minHoursLeaving, interval, workingPeriod) : int []
+}
+}
+
+
+'UI'
+CenterPerformanceUI ..> CenterPerformanceController
+
+'Controller'
+CenterPerformanceController ..> "1" Company
+
+'Company'
+Company "1" -d-> "1" VaccinationCenterStore : uses
+Company "1" -d-> "1" SnsUserArrivalStore : uses
+Company "1" -d-> "1" VaccineAdministrationStore : uses
+
+
+'VaccinationCenterStore'
+VaccinationCenterStore "1" -u-> "*" VaccinationCenter : stores
+
+'VaccineAdministrationStore'
+VaccineAdministrationStore "1" -u-> "*" VaccineAdministration : stores
+
+'SnsUserArrivalStore'
+SnsUserArrivalStore "1" -u-> "*" SnsUserArrival : stores
+
+
+'interface and adapter'
+VaccinationCenter "1"-d->"1" CenterPerformanceCalculation : makes use of
+BruteForceAlgorithmAdapter "1" .u.|> "1" CenterPerformanceCalculation : implements
+BenchmarkAlgorithmAdapter "1" .u.|> "1" CenterPerformanceCalculation : implements
+
+'adapter with adaptee'
+BruteForceAlgorithmAdapter "1" -d-> "1" PreprocessingPerformance : uses
+BenchmarkAlgorithmAdapter "1" -d-> "1" PreprocessingPerformance : uses
+
+
+@enduml

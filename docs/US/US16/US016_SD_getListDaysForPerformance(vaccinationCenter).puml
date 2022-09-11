@@ -1,0 +1,79 @@
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant "store: SnsUserArrivalStore " as ArrivalStore
+participant "listArrivals :List<LocalDateTime>" as listArrivals
+participant "listAvailableDaysForPerformance \n: List<LocalDate>" as listAvailableDaysForPerformance
+participant ":SnsUserArrival" as snsUserArrival
+
+
+title : SD_getListDaysForPerformance(vaccinationCenter)
+'1'
+[o-> ArrivalStore : getListDaysForPerformance(vaccinationCenter)
+activate ArrivalStore
+'2'
+ArrivalStore --> listAvailableDaysForPerformance ** : listAvailableDaysForPerformance = create()
+
+
+ArrivalStore -> ArrivalStore : getListArrivals(vaccinationCenter)
+activate ArrivalStore
+ArrivalStore --> listArrivals ** : listArrivals = create()
+
+loop for each snsUserArrival
+ArrivalStore -> snsUserArrival : snsUserArrival = get(i)
+activate snsUserArrival
+deactivate snsUserArrival
+
+opt snsUserArrival is on vaccinationCenter
+ArrivalStore -> listArrivals : add(snsUserArrival.getArrivalDate())
+activate listArrivals
+
+end opt
+end loop
+return listArrivals
+deactivate listArrivals
+deactivate ArrivalStore
+
+
+loop for each arrivalDateTime in listArrivals
+
+ArrivalStore -> listArrivals : arrivalDateTime = get(i)
+
+activate listArrivals
+deactivate listArrivals
+ArrivalStore -> ArrivalStore : localDate = arrivalDateTime.toLocalDate()
+opt listAvailableDaysForPerformance does not contain localDate
+ArrivalStore -> listAvailableDaysForPerformance : add(localDate)
+activate listAvailableDaysForPerformance
+end opt
+end loop
+return listAvailableDaysForPerformance
+deactivate listAvailableDaysForPerformance
+
+
+
+
+
+'7'
+[<-- ArrivalStore : listAvailableDaysForPerformance
+
+deactivate ArrivalStore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

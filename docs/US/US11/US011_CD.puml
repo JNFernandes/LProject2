@@ -1,0 +1,69 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class GetListEmployeeUI {
+}
+
+class GetListEmployeeController {
+  +getRoleList()
+  +getListEmployeeByRole(roleOption)
+}
+
+class Company
+{
+  -designation : String
+  - empStore : EmployeeStore
+  +getEmployeeStore()
+}
+
+class EmployeeStore {
+  +getListEmployeeByRole(roleOption)
+  +getRoleList()
+}
+
+
+class Employee {
+-name : String
+-email : String
+-address : String
+-citizenCardNumber: long
+-phoneNumber: long
+-role : Role
+-id : String
+-employeeCount: int
+-ID_TEMPLATE : String
+
++Employee(String name, String email, String address, long phoneNumber, long citizenCardNumber, Role role)
++getRole() : String
+}
+
+enum Role {
+  +CENTER_COORDINATOR
+  +RECEPTIONIST
+  +NURSE
+}
+
+'UI'
+GetListEmployeeUI ..> GetListEmployeeController
+
+'Controller'
+GetListEmployeeController ..> Company
+GetListEmployeeController ..> EmployeeStore
+
+'Company'
+Company "1" -> "1" EmployeeStore : uses
+Company "1" -> "*" Employee : employs
+
+'EmployeeStore'
+EmployeeStore "1" -> "*" Employee : stores
+
+'Employee'
+
+Employee ..> Role
+
+
+
+
+
+
+@enduml

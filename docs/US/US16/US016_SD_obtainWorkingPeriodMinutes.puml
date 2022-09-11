@@ -1,0 +1,46 @@
+@startuml
+autonumber
+
+skinparam titleFontSize 25
+
+
+participant ":VaccinationCenter" as VC
+
+title : SD_obtainWorkingPeriodMinutes()
+
+'1'
+[o-> VC : obtainWorkingPeriodMinutes()
+activate VC
+
+'2'
+VC -> VC : timeOpen = vaccinationCenter.getOpeningHours()
+activate VC
+deactivate VC
+'3'
+VC -> VC : timeClose = vaccinationCenter.getClosingHours()
+activate VC
+deactivate VC
+'4'
+VC -> VC : duration = Duration.between(timeOpen, timeClose).toMinutes()
+activate VC
+deactivate VC
+'5'
+[<-- VC : workingPeriod
+
+deactivate VC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

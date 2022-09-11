@@ -1,0 +1,57 @@
+@startuml
+left to right direction
+
+actor :SNS User: as user
+actor :Nurse: as nurse
+actor :Center Coordinator: as coordinator
+actor :Receptionist: as receptionist
+actor :Administrator: as administrator
+actor :<<Automatic>> Clock/Timer: as timer #A9DCDF
+
+usecase UC1 as "UC1: Schedule vaccination"
+usecase UC2 as "UC2: Schedule vaccination"
+usecase UC3 as "UC3: As a receptionist, I want to register a SNS user"
+usecase UC4 as "UC4: Register the arrival of a SNS user to take the vaccine"
+usecase UC5 as "UC5: Consult the users in the waiting room of a vaccination center"
+usecase UC6 as "UC6: Generate for each vaccination center a daily report with the total number of people vaccinated" #A9DCDF
+usecase UC7 as "UC7: Record adverse reactions of a SNS user"
+usecase UC8 as "UC8: Record the administration of a vaccine to a SNS user" #A9DCDF
+usecase UC9 as "UC9: As a administrator, I want to register a vaccination center to respond to certain pandemic"
+usecase UC10 as "UC10: Register a Employee"
+usecase UC11 as "UC11: Get a list of Employees with a given function/role"
+usecase UC12 as "UC12: Specify a new vaccine type"
+usecase UC13 as "UC13: Specify a new vaccine and its administration process"
+usecase UC14 as "UC14: Load a set of users from a CSV file"
+usecase UC15 as "UC15: Export Vaccination Statistics" #A9DCDF
+usecase UC16 as "UC16: Analyse Performance of a Center" #A9DCDF
+usecase UC17 as "UC17: Import data from a legacy system used in the past" #A9DCDF
+usecase UC18 as "UC18: get a list of all vaccines"
+
+
+
+user --> UC1
+
+
+receptionist --> UC4
+receptionist --> UC3
+receptionist --> UC2
+
+nurse --> UC7
+nurse --> UC8
+nurse --> UC5
+
+administrator --> UC9
+administrator --> UC10
+administrator --> UC11
+administrator --> UC12
+administrator --> UC13
+administrator --> UC14
+
+coordinator --> UC17
+coordinator --> UC16
+coordinator --> UC15
+coordinator --> UC18
+
+timer --> UC6
+
+@enduml
