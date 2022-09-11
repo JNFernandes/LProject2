@@ -52,7 +52,7 @@ Some constraints were given to the project such as:
 - US17: As a center coordinator, I want to import data from a legacy system used in the past
 - US18: As a center coordinator, I want to get a list of all vaccines
 
-The US10, US14 and US16 were the ones developed by me, thus the only artifacts in this repository presented
+The **US10**, **US14** and **US16** were the ones developed by me, thus the only artifacts in this repository presented
 
 ## Engineering Requirements (docs folder)
   - Use Cases
