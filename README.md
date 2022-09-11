@@ -43,15 +43,14 @@ Some constraints were given to the project such as:
 - US8: As a nurse, I want to record the administration of a vaccine to a SNS user
 - US9: As a administrator, I want to register a vaccination center to respond to certain pandemic
 - US10: As a administrator, I want to register a Employee
-
-**- US11: As a administrator, I want to get a list of Employees with a given function/role**
+-**US11: As a administrator, I want to get a list of Employees with a given function/role**
 - US12: As a administrator, I intent to specify a new vaccine type
 - US13: As a administrator, I intent to specify a new vaccine and its administration process
 
-**- US14: As an administrator, I want to load a set of users from a CSV file**
+-**US14: As an administrator, I want to load a set of users from a CSV file**
 - US15: As a center coordinator, I intend to check and export vaccination statistics
 
-**- US16: As a center coordinator, I intend to analyse a performance of a center**
+-**US16: As a center coordinator, I intend to analyse a performance of a center**
 - US17: As a center coordinator, I want to import data from a legacy system used in the past
 - US18: As a center coordinator, I want to get a list of all vaccines
 
