@@ -1,0 +1,228 @@
+@startuml
+hide methods
+'left to right direction
+scale 500 height
+
+skinparam classAttributeIconSize 10
+skinparam minClassWidth 150
+skinparam classHeaderBackgroundColor LightGray
+skinparam classBackgroundColor WhiteSmoke
+skinparam classBorderColor DarkSlateGray
+skinparam classFontColor automatic
+skinparam classFontSize 15
+skinparam classFontName Corbel
+skinparam nodesep 70
+skinparam ranksep 70
+
+
+class Company {
+    \n
+}
+
+class SNSUser {
+    #snsUserNumber
+}
+
+class VaccinationCenter {
+    -name
+    -phoneNumber
+    -emailAddress
+    -faxNumber
+    -websiteAddress
+    -openingHours
+    -closingHours
+    -slotDuration
+    -maxNumVaccines
+}
+
+class CommunityMassVaccinationCenter {
+    \n
+}
+
+class HealthcareCenter {
+    \n
+}
+
+class Administrator {
+    \n
+}
+
+class Vaccine {
+    #brand
+}
+
+class VaccineType {
+    #lotNumber
+}
+
+class Address {
+    \n
+}
+
+class VaccineSchedule {
+    -Date
+    -Time
+}
+
+class VaccineAdministration {
+    \n
+}
+
+class VaccinationCertificate {
+    \n
+}
+
+together {
+    class ARS {
+        \n
+    }
+    class AGES {
+        \n
+    }
+}
+
+together {
+    class Employee  {
+        \n
+    }
+    class CenterCoordinator {
+        \n
+    }
+    class Nurse  {
+        \n
+    }
+    class Receptionist  {
+        \n
+    }
+}
+
+class AdministrationProcess {
+    \n
+}
+
+class AdverseReaction {
+    \n
+}
+
+class VaccinationProcess {
+    \n
+}
+
+class Notification {
+    \n
+}
+class RecoveryPeriod {
+    \n
+}
+
+class ExternalModule {
+}
+
+class WaitingRoom { }
+
+class User {
+-name
+-email
+-password
+}
+
+class TaskScheduler #A9DCDF{
+    -adapter
+    -executionTime
+}
+class CenterPerformance #A9DCDF {
+\n
+}
+
+Company "1" -[#grey,thickness=2]d- "*" Administrator : <font color=gray> has >
+Company "1" -[#grey,thickness=2]d "*" VaccinationCenter : <font color=gray> has >
+Company "1" --[#grey,thickness=2] "*" SNSUser : <font color=gray> owns >
+Company "1" --[#grey,thickness=2] "*" Vaccine :  <font color=gray> has >
+Company "1" --[#grey,thickness=2]  "*" VaccinationProcess :<font color=gray> has >
+Company "1" --[#grey,thickness=2]  "*" Notification   : <font color=gray> sends confirmation  >
+Company "1" --[#grey,thickness=2]  "*" Notification   : <font color=gray> sends  >
+Company "1" --[#grey,thickness=2] "*" Employee : <font color=gray> employs >
+Company "1" --[#DarkTurquoise,thickness=2] "*" TaskScheduler : <font color=DarkTurquoise> has a >
+
+Administrator "1" -[#grey]-  "*" VaccinationCenter : <font color=gray> manages >
+Administrator "1" -[#grey]-  "*" VaccineType : <font color=gray> manages >
+Administrator "1" -[#grey]-  "*" Vaccine : <font color=gray> manages >
+Administrator "1" -[#grey]-  "*" Employee : <font color=gray> manages >
+Administrator "1" -[#grey,bold]-  "*" SNSUser : <font color=grey> registers >
+Administrator "1" -[#grey,bold]-  "1" ExternalModule : <font color=grey> makes use of >
+
+ExternalModule "1" -[#grey,bold]- "*" SNSUser : <font color=grey> has >
+
+SNSUser "1" -[#grey]-  "1" VaccinationCertificate : <font color=gray> requests >
+SNSUser "1" -[#grey]-  "0,1,2" Notification : <font color=gray>  receives >
+SNSUser "1" -[#grey]-  "0,1" Notification : <font color=gray> authorizes >
+SnsUser "0..*" -[#grey,bold]- "1" WaitingRoom : wait in >
+
+VaccinationCenter "1" -[#grey]- "1" CenterCoordinator : <font color=gray> has >
+VaccinationCenter "1" -[#grey]- "1" VaccinationProcess : <font color=gray> has >
+VaccinationCenter "1" -[#grey]- "1" Address : <font color=gray> has >
+VaccinationCenter "*" -[#grey]- "*" VaccineAdministration : <font color=gray> implements >
+
+CommunityMassVaccinationCenter "1..*" -[#grey]- "1" VaccineType : <font color=gray>  administers >
+
+HealthcareCenter "*" -[#grey]- "*" VaccineType : <font color=gray> administers >
+HealthcareCenter "1..*" -[#grey]- "1" ARS : <font color=gray> is associated with >
+HealthcareCenter "1..*" -[#grey]- "1" AGES :  <font color=gray> is associated with >
+
+Employee "1..*" -[#grey]- "1" VaccinationCenter :<font color=gray> works on >
+
+Nurse "1..*" -[#grey]- "1..*" Vaccine : <font color=gray> administers >
+Nurse "1" -[#grey]- "1..*" VaccineAdministration : <font color=gray> registers >
+Nurse "1" -[#grey]- "1..*" SNSUser : <font color=gray>checks >
+Nurse "1" -[#grey]- "1..*" VaccineSchedule :  <font color=gray>checks >
+Nurse "1" -[#grey]- "1..*" RecoveryPeriod :<font color=gray> initiates >
+Nurse "1" -[#grey]- "*" AdverseReaction :  <font color=gray>records >
+Nurse "1" -[#grey]- "1..*" AdministrationProcess : <font color=gray>records >
+Nurse "1" -[#grey]- "*" VaccinationCertificate : <font color=gray>issues >
+Nurse "1..*" -[#grey,bold]- "1" WaitingRoom : checks >
+
+Receptionist "1" -[#grey]- "1..*" VaccineSchedule :<font color=gray> confirms >
+Receptionist "1" -[#grey]- "1..*" VaccineAdministration : <font color=gray> acknowledges >
+Receptionist "1" -[#grey]- "1..*" SNSUser : <font color=gray> checks in >
+Receptionist "1" -[#grey,bold]- "1..*" SNSUser : <font color=grey> registers >
+Receptionist "1" -[#grey]- "*" VaccineSchedule : <font color=gray> schedules >
+
+Vaccine "*" -[#grey]- "1" VaccineType : <font color=gray> is of >
+Vaccine "*" -[#grey]- "1" AdministrationProcess : <font color=gray> has >
+
+VaccinationCertificate "*" -[#DarkOliveGreen]- "1" Vaccine : <font color=gray> refers to >
+
+VaccineSchedule "1..*" -[#grey]- "1" VaccineType : <font color=gray> for taking >
+VaccineSchedule "1..*" -[#grey]- "1" SNSUser : <font color=gray> created for >
+VaccineSchedule "1..*" -[#grey]- "1" VaccinationCenter : <font color=gray> allocated to >
+VaccineSchedule "1" -[#grey]- "0,1" Notification : <font color=gray> generates >
+
+VaccineAdministration "1" -[#grey]- "1" VaccineSchedule :<font color=gray> fulfilling >
+VaccineAdministration "1..*" -[#grey]- "1" SNSUser : <font color=gray> administered on >
+
+CenterCoordinator "1" -[#grey]- "*" VaccinationProcess : <font color=gray> monitors >
+CenterCoordinator "1" -[#grey]- "1" VaccinationProcess : <font color=gray> manages >
+CenterCoordinator "1" -[#DarkTurquoise,thickness=2]- "1" CenterPerformance : <font color=DarkTurquoise> manages >
+
+RecoveryPeriod "1" -u[#grey]- "0,1" Notification : <font color=gray> generates  >
+
+VaccinationCenter <|-[#grey]- CommunityMassVaccinationCenter
+VaccinationCenter <|-[#grey]- HealthcareCenter
+VaccinationCenter "1" -[#grey,bold]- "1" WaitingRoom : has >
+VaccinationCenter "1" -[#DarkTurquoise,thickness=2]- "1" CenterPerformance : has >
+
+Employee "*" -d[#grey]- "1" Nurse : <font color=gray> is of >
+Employee "*" -d[#grey]- "1" Receptionist : <font color=gray> is of >
+Employee "*" -d[#grey]- "1" CenterCoordinator : <font color=gray> is of >
+Employee "0..*" -[#grey,bold]- "1" User : relates to <font color=darkTurquoise>
+
+package Note: <<Rectangle>> {
+note as N1  #A9DCDF
+the cyan color text refers to Sprint D
+end note
+
+'note as N2  #cd5c5c
+'the red color text refers to Sprint C
+'end note
+}
+@enduml
