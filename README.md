@@ -66,7 +66,7 @@ The **US11**, **US14** and **US16** were the ones developed by me, thus the only
   - Class Diagram
   
 ## Code
-Part of the code can be found in /src folder. Inside this folder, it can be found the main and test folders. It is adopted the **MVC pattern** for better structuring of the code. Tests were conducted using JUnit5. The src mainly contains the code used for **US11**, **US14** and **US16**. Part of the files are also missing. There was no need to upload them in the repo. The idea is just to enlight the skills obtained in Java language and showing the artifacts that are consistent with the methods and classes created in the code. 
+Part of the code can be found in /src folder. Inside this folder, it can be found the main and test folders. It is adopted the **MVC (model-view-controller) pattern** for better structuring of the code. Tests were conducted using JUnit5. The src mainly contains the code used for **US11**, **US14** and **US16**. Part of the files are also missing. There was no need to upload them in the repo. The idea is just to enlight the skills obtained in Java language and showing the artifacts that are consistent with the methods and classes created in the code. 
 
 
 
