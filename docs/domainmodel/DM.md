@@ -105,11 +105,5 @@ remembering, or it is derivable from the List of Common Associations:
 
 ## Domain Model
 
-**Do NOT forget to identify concepts atributes too.**
 
-**Insert below the Domain Model Diagram in a SVG format**
-
-Note: <span style="color: cyan ;"> the cyan color text refers to Sprint B</span>
-
-Note: <span style="color: green ;"> the green color text refers to Sprint B</span>
 ![DM.svg](DM.svg)
